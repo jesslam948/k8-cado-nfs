@@ -11,7 +11,7 @@ N = 3529576719059951555645750859090210280842488087916027309693263459042276388377
 # This parameter is not actually used by cadofactor directly, but it is 
 # referenced as $(sourcedir) further down in the parameter file.
 
-sourcedir=${HOME}/cado-nfs
+sourcedir=/cado-nfs
 
 
 # Adjust builddir to point to the root of your CADO build directory
@@ -21,7 +21,7 @@ sourcedir=${HOME}/cado-nfs
 # of the shell. In that case, the "${HOSTNAME}" here needs to be
 # replaced, or the HOSTNAME variable needs to be exported manually.
 
-builddir=$(sourcedir)/build/${HOSTNAME}
+builddir=$(sourcedir)/build/cado-nfs-build
 
 
 # Parameters for the various tasks performed during the factorization
