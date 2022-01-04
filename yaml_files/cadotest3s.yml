@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: testcado3s
+        labels:
+                app: server
+spec:
+        containers:
+                - name: cadoserver
+                  image: jessica948/cadonfs:latest
+                  ports:
+                          - containerPort: 8012
+                  command: ['sh', '-c', 'cd /cado-nfs && ./cado-nfs.py /etc/config/params1 && sleep 30']
+                  volumeMounts:
+                          - name: param-volume
+                            mountPath: /etc/config
+        volumes:
+                - name: param-volume
+                  configMap:
+                          name: param-cfg-1 
+        restartPolicy: OnFailure
+        imagePullSecrets:
+                - name: regcred
