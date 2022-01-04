@@ -68,7 +68,6 @@
 			sudo chown $(id -u):$(id -g) $HOME/.kube/config
 			```
 		- example to join worker nodes (this will change everytime we init):
-
 			``` bash
 			sudo kubeadm join 192.168.56.101:6443 --token 19lwns.xu7w7b6te7dzlv1i --discovery-token-ca-cert-hash sha256:04acbbc2e4f42850b87aae8eefabc27bf363785d85c0ca21b8566b6f318f3bbe 
 			```
@@ -79,6 +78,10 @@
 	- for CNI plugins to work `sudo sysctl net.bridge.bridge-nf-call-iptables=1`
 	- I used [flannel](https://github.com/flannel-io/flannel) for networking `kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml`
 		- but we can choose from any in this [list](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
+	- flannel wasn't working so I switched to calico:
+		- make sure there aren't any other cni configs in /etc/cni/net.d
+		- follow these [instructions](https://projectcalico.docs.tigera.io/getting-started/kubernetes/quickstart#install-calico)
+		- NOTE: for calico to work, the pod-network-cidr flag must be in use when doing the kubeadm init
 ## On the Client Nodes
 1. Join the worker node
 	- `sudo kubeadm join --apiserver-advertise-address=192.168.56.101 --pod-network-cidr=192.168.0.0/16`
