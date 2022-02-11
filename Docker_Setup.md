@@ -1,4 +1,5 @@
 ## Creating Your Own Docker Image
+If you don't need to create your own image and will be using one that's already publicly available, just pull it using `docker pull [image_name]:[tag]`.
 1. Add yourself to the docker group [source](https://docs.docker.com/engine/install/linux-postinstall/)
 	- `sudo groupadd docker`
 	- `sudo usermod -aG docker $USER`

@@ -76,8 +76,8 @@
 	- `kubectl get pods -o wide --all-namespaces`
 4. Setup networking (get the coredns to work) ([source](https://stackoverflow.com/questions/52609257/coredns-in-pending-state-in-kubernetes-cluster))
 	- for CNI plugins to work `sudo sysctl net.bridge.bridge-nf-call-iptables=1`
-	- I used [flannel](https://github.com/flannel-io/flannel) for networking `kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml`
-		- but we can choose from any in this [list](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
+	- ~~I used [flannel](https://github.com/flannel-io/flannel) for networking `kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml`~~
+	- we can choose CNI plugins from any in this [list](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
 	- flannel wasn't working so I switched to calico:
 		- make sure there aren't any other cni configs in /etc/cni/net.d
 		- follow these [instructions](https://projectcalico.docs.tigera.io/getting-started/kubernetes/quickstart#install-calico)
