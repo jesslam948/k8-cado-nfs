@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: cadoclient
+        labels:
+                app: client
+spec:
+        replicas: 3
+        selector:
+                matchLabels:
+                        app: client
+        template:
+                metadata:
+                        labels:
+                                app: client
+                spec:
+                        containers:
+                                - name: cadoclient
+                                  image: us-west2-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs:latest
+                                  ports:
+                                        - containerPort: 80
+                                  command: ['sh', '-c', 'cd /cado-nfs && ./cado-nfs-client.py --server=http://server-service:8012']
+                        imagePullSecrets:
+                                - name: regcred
