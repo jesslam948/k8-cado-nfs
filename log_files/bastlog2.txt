@@ -1,0 +1,654 @@
+# bastion k8 setup with params2 (346 bits) 
+[33;1mWarning[0m:Parameters: Parameter tasks.execpath, previously set to value /cado-nfs/build/cado-nfs-build, overwritten with value $(builddir)
+[32;1mInfo[0m:root: No database exists yet
+[32;1mInfo[0m:Database: Opened connection to database /tmp/test346.db
+[32;1mInfo[0m:root: tasks.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: tasks.polyselect.threads = 2 [via tasks.polyselect.threads]
+[32;1mInfo[0m:root: tasks.sieve.las.threads = 2 [via tasks.sieve.las.threads]
+[32;1mInfo[0m:root: tasks.linalg.bwc.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: tasks.sqrt.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: Command line parameters: ./cado-nfs.py /etc/config/params2
+[32;1mInfo[0m:root: If this computation gets interrupted, it can be resumed with ./cado-nfs.py /tmp/test346.parameters_snapshot.0
+[32;1mInfo[0m:HTTP server: Using non-threaded HTTP server
+[32;1mInfo[0m:HTTP server: Using whitelist: 0.0.0.0/0
+[32;1mInfo[0m:Lattice Sieving: param rels_wanted is 0
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Factoring 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+[32;1mInfo[0m:HTTP server: serving at http://testcado5s:8012 (0.0.0.0)
+[32;1mInfo[0m:HTTP server: For debugging purposes, the URL above can be accessed if the server.only_registered=False parameter is added
+[32;1mInfo[0m:HTTP server: You can start additional cado-nfs-client.py scripts with parameters: --server=http://testcado5s:8012
+[32;1mInfo[0m:HTTP server: If you want to start additional clients, remember to add their hosts to server.whitelist
+[32;1mInfo[0m:Polynomial Selection (size optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (size optimized): 0 polynomials in queue from previous run
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_0-4000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_4000-8000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_8000-12000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_12000-16000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_16000-20000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_20000-24000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_24000-28000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_28000-32000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_32000-36000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_36000-40000 to database
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_polyselect1_0-4000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_polyselect1_4000-8000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_polyselect1_8000-12000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_polyselect1_12000-16000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 675 polynomials, added 153 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 27.220000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_0-4000 as ok (10.0% => ETA Unknown)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_polyselect1_16000-20000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 694 polynomials, added 25 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 27.050000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_4000-8000 as ok (20.0% => ETA Mon Feb 14 18:14:00 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_polyselect1_20000-24000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 748 polynomials, added 5 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 27.040000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_8000-12000 as ok (30.0% => ETA Mon Feb 14 18:12:20 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_polyselect1_24000-28000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 709 polynomials, added 12 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.970000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_12000-16000 as ok (40.0% => ETA Mon Feb 14 18:12:35 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_polyselect1_28000-32000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 760 polynomials, added 11 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.890000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_16000-20000 as ok (50.0% => ETA Mon Feb 14 18:12:04 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_polyselect1_32000-36000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 739 polynomials, added 2 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.870000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_20000-24000 as ok (60.0% => ETA Mon Feb 14 18:11:48 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_polyselect1_36000-40000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 759 polynomials, added 2 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.870000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_24000-28000 as ok (70.0% => ETA Mon Feb 14 18:12:00 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 784 polynomials, added 4 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.850000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_28000-32000 as ok (80.0% => ETA Mon Feb 14 18:11:48 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 813 polynomials, added 5 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.800000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_32000-36000 as ok (90.0% => ETA Mon Feb 14 18:11:40 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 742 polynomials, added 3 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.790000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_36000-40000 as ok (100.0% => ETA Mon Feb 14 18:11:48 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Finished
+[32;1mInfo[0m:Polynomial Selection (size optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (size optimized): potential collisions: 9603.68
+[32;1mInfo[0m:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 9692/30.370/36.764/41.730/1.067
+[32;1mInfo[0m:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 7423/29.140/32.646/37.220/0.865
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 417.08
+[32;1mInfo[0m:Polynomial Selection (root optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (root optimized): No polynomial was previously found
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_0-1 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_6-7 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_12-13 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_18-19 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_24-25 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_30-31 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_36-37 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_42-43 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_48-49 to database
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_polyselect2_0-1 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_polyselect2_6-7 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_polyselect2_12-13 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_polyselect2_18-19 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.3nk8e0cc.opt_6: Murphy E = 2.723e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.3nk8e0cc.opt_6: Murphy E = 3.028e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.3nk8e0cc.opt_6 with E=3.008e-06 is no better than current best with E=3.028e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.3nk8e0cc.opt_6 with E=2.873e-06 is no better than current best with E=3.028e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.3nk8e0cc.opt_6 with E=2.740e-06 is no better than current best with E=3.028e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.3nk8e0cc.opt_6 with E=2.973e-06 is no better than current best with E=3.028e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_6-7 as ok (4.0% => ETA Unknown)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_polyselect2_24-25 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.z6gxgp9t.opt_0 with E=2.595e-06 is no better than current best with E=3.028e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.z6gxgp9t.opt_0 with E=2.506e-06 is no better than current best with E=3.028e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.z6gxgp9t.opt_0: Murphy E = 3.090e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.z6gxgp9t.opt_0: Murphy E = 3.236e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.z6gxgp9t.opt_0 with E=3.191e-06 is no better than current best with E=3.236e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.z6gxgp9t.opt_0 with E=3.197e-06 is no better than current best with E=3.236e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_0-1 as ok (16.0% => ETA Mon Feb 14 18:13:24 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_polyselect2_30-31 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.1rz6uy5r.opt_18 with E=2.958e-06 is no better than current best with E=3.236e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.1rz6uy5r.opt_18: Murphy E = 3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.1rz6uy5r.opt_18 with E=2.654e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.1rz6uy5r.opt_18 with E=3.030e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.1rz6uy5r.opt_18 with E=2.625e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.1rz6uy5r.opt_18 with E=2.887e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_18-19 as ok (28.0% => ETA Mon Feb 14 18:13:00 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_polyselect2_36-37 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.4fdx5zks.opt_24 with E=3.001e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.4fdx5zks.opt_24 with E=3.050e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.4fdx5zks.opt_24 with E=2.868e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.4fdx5zks.opt_24 with E=3.243e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.4fdx5zks.opt_24: Murphy E = 3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.4fdx5zks.opt_24 with E=3.364e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_24-25 as ok (40.0% => ETA Mon Feb 14 18:12:41 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_polyselect2_42-43 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.mdy2yuy_.opt_12 with E=3.353e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.mdy2yuy_.opt_12 with E=2.785e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.mdy2yuy_.opt_12 with E=2.747e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.mdy2yuy_.opt_12 with E=1.938e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.mdy2yuy_.opt_12 with E=2.681e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.mdy2yuy_.opt_12 with E=3.203e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_12-13 as ok (52.0% => ETA Mon Feb 14 18:12:30 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_polyselect2_48-49 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.12r1frno.opt_30 with E=3.062e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.12r1frno.opt_30 with E=2.556e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.12r1frno.opt_30 with E=2.996e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.12r1frno.opt_30 with E=3.009e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.12r1frno.opt_30 with E=2.874e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.12r1frno.opt_30 with E=3.381e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_30-31 as ok (64.0% => ETA Mon Feb 14 18:12:28 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zv19puc1.opt_42 with E=3.061e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zv19puc1.opt_42 with E=2.954e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zv19puc1.opt_42 with E=3.020e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zv19puc1.opt_42 with E=2.601e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zv19puc1.opt_42 with E=2.665e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zv19puc1.opt_42 with E=2.958e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_42-43 as ok (76.0% => ETA Mon Feb 14 18:12:25 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.4ue6xp38.opt_48 with E=2.575e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.4ue6xp38.opt_48 with E=2.943e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_48-49 as ok (88.0% => ETA Mon Feb 14 18:12:20 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.otws3rye.opt_36 with E=3.249e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.otws3rye.opt_36 with E=2.921e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.otws3rye.opt_36 with E=3.170e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.otws3rye.opt_36 with E=2.996e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.otws3rye.opt_36 with E=3.102e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.otws3rye.opt_36 with E=2.990e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_36-37 as ok (100.0% => ETA Mon Feb 14 18:12:17 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Kept 40 polynomials with MurphyE from 3.382e-06 to 2.723e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.0 had MurphyE 3.382e-06, refined to 3.477e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.1 had MurphyE 3.381e-06, refined to 3.352e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.2 had MurphyE 3.364e-06, refined to 3.365e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.3 had MurphyE 3.353e-06, refined to 3.343e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.4 had MurphyE 3.302e-06, refined to 3.326e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.5 had MurphyE 3.249e-06, refined to 3.214e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.6 had MurphyE 3.243e-06, refined to 3.206e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.7 had MurphyE 3.236e-06, refined to 3.208e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.8 had MurphyE 3.203e-06, refined to 3.222e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.9 had MurphyE 3.197e-06, refined to 3.189e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.10 had MurphyE 3.191e-06, refined to 3.104e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.11 had MurphyE 3.170e-06, refined to 3.179e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.12 had MurphyE 3.102e-06, refined to 3.058e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.13 had MurphyE 3.090e-06, refined to 3.114e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.14 had MurphyE 3.062e-06, refined to 3.023e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.15 had MurphyE 3.061e-06, refined to 3.075e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.16 had MurphyE 3.050e-06, refined to 3.086e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.17 had MurphyE 3.030e-06, refined to 3.000e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.18 had MurphyE 3.028e-06, refined to 3.052e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.19 had MurphyE 3.020e-06, refined to 3.063e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.20 had MurphyE 3.009e-06, refined to 2.974e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.21 had MurphyE 3.008e-06, refined to 3.037e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.22 had MurphyE 3.001e-06, refined to 2.943e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.23 had MurphyE 2.996e-06, refined to 2.987e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.24 had MurphyE 2.996e-06, refined to 2.998e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.25 had MurphyE 2.990e-06, refined to 3.025e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.26 had MurphyE 2.973e-06, refined to 3.003e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.27 had MurphyE 2.958e-06, refined to 2.961e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.28 had MurphyE 2.958e-06, refined to 2.964e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.29 had MurphyE 2.954e-06, refined to 2.902e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.30 had MurphyE 2.943e-06, refined to 2.941e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.31 had MurphyE 2.921e-06, refined to 2.908e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.32 had MurphyE 2.887e-06, refined to 2.876e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.33 had MurphyE 2.874e-06, refined to 2.854e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.34 had MurphyE 2.873e-06, refined to 2.869e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.35 had MurphyE 2.868e-06, refined to 2.856e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.36 had MurphyE 2.785e-06, refined to 2.810e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.37 had MurphyE 2.747e-06, refined to 2.711e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.38 had MurphyE 2.740e-06, refined to 2.745e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.39 had MurphyE 2.723e-06, refined to 2.706e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial is /tmp/test346.poly.0
+[32;1mInfo[0m:Polynomial Selection (root optimized): Finished, best polynomial has Murphy_E = 3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial is:
+n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+skew: 3449.46
+c0: -14286378990381855344892
+c1: -9216703856464715704
+c2: -9244961194776483
+c3: 1741288970963
+c4: 267861630
+c5: 48600
+Y0: -79051137083745465181
+Y1: 7656697313448013
+# MurphyE (Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12) = 3.382e-06
+# f(x) = 48600*x^5+267861630*x^4+1741288970963*x^3-9244961194776483*x^2-9216703856464715704*x-14286378990381855344892
+# g(x) = 7656697313448013*x-79051137083745465181
+
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best overall polynomial was 1-th in list after size optimization
+[32;1mInfo[0m:Polynomial Selection (root optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 132.01
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 131.51
+[32;1mInfo[0m:Generate Factor Base: Starting
+[32;1mInfo[0m:Generate Factor Base: Finished
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 1.31/0.690306
+[32;1mInfo[0m:Generate Free Relations: Starting
+[32;1mInfo[0m:Generate Free Relations: Found 17348 free relations
+[32;1mInfo[0m:Generate Free Relations: Finished
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 50.45/24.9401
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 4584686 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_300000-310000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_310000-320000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_320000-330000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_330000-340000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_340000-350000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_350000-360000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_360000-370000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_370000-380000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_380000-390000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_390000-400000 to database
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_300000-310000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_310000-320000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_400000-410000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_410000-420000 to database
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_320000-330000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_420000-430000 to database
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_330000-340000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_340000-350000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_430000-440000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_440000-450000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 107170 relations in '/tmp/test346.upload/test346.300000-310000.wtk73kc5.gz', total is now 107170/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_300000-310000 as ok (2.3% => ETA Unknown)
+[32;1mInfo[0m:Lattice Sieving: Found 101974 relations in '/tmp/test346.upload/test346.310000-320000.s8vxonh5.gz', total is now 209144/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_310000-320000 as ok (4.6% => ETA Mon Feb 14 19:04:47 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_350000-360000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_450000-460000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 104446 relations in '/tmp/test346.upload/test346.320000-330000.zo01u255.gz', total is now 313590/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_320000-330000 as ok (6.8% => ETA Mon Feb 14 18:43:09 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_360000-370000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_460000-470000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 92720 relations in '/tmp/test346.upload/test346.330000-340000.tpns9fiy.gz', total is now 406310/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_330000-340000 as ok (8.9% => ETA Mon Feb 14 18:45:27 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_370000-380000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_470000-480000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 97245 relations in '/tmp/test346.upload/test346.340000-350000.6wt0e9nz.gz', total is now 503555/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_340000-350000 as ok (11.0% => ETA Mon Feb 14 18:38:22 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_380000-390000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_480000-490000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 105742 relations in '/tmp/test346.upload/test346.350000-360000.x9dq1kj8.gz', total is now 609297/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_350000-360000 as ok (13.3% => ETA Mon Feb 14 18:37:17 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_390000-400000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_490000-500000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 93428 relations in '/tmp/test346.upload/test346.360000-370000.eqcdexn0.gz', total is now 702725/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_360000-370000 as ok (15.3% => ETA Mon Feb 14 18:37:12 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_400000-410000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_500000-510000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 91901 relations in '/tmp/test346.upload/test346.370000-380000.m4qfj1r0.gz', total is now 794626/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_370000-380000 as ok (17.3% => ETA Mon Feb 14 18:34:21 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_410000-420000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_510000-520000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 95362 relations in '/tmp/test346.upload/test346.380000-390000.erc73rte.gz', total is now 889988/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_380000-390000 as ok (19.4% => ETA Mon Feb 14 18:35:44 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_420000-430000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_520000-530000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 94229 relations in '/tmp/test346.upload/test346.390000-400000.8yh2zqqp.gz', total is now 984217/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_390000-400000 as ok (21.5% => ETA Mon Feb 14 18:34:48 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_430000-440000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_530000-540000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 86813 relations in '/tmp/test346.upload/test346.400000-410000.thxbnshm.gz', total is now 1071030/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_400000-410000 as ok (23.4% => ETA Mon Feb 14 18:32:53 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_440000-450000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_540000-550000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 90941 relations in '/tmp/test346.upload/test346.410000-420000.g2w9oxk7.gz', total is now 1161971/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_410000-420000 as ok (25.3% => ETA Mon Feb 14 18:34:58 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_450000-460000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_550000-560000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 93130 relations in '/tmp/test346.upload/test346.420000-430000.t996ckyk.gz', total is now 1255101/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_420000-430000 as ok (27.4% => ETA Mon Feb 14 18:33:41 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_460000-470000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_560000-570000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 93453 relations in '/tmp/test346.upload/test346.430000-440000.qp1oa37_.gz', total is now 1348554/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_430000-440000 as ok (29.4% => ETA Mon Feb 14 18:32:24 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_470000-480000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_570000-580000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 86641 relations in '/tmp/test346.upload/test346.450000-460000.vkr13zgd.gz', total is now 1435195/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_450000-460000 as ok (31.3% => ETA Mon Feb 14 18:34:17 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_480000-490000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_580000-590000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 95105 relations in '/tmp/test346.upload/test346.440000-450000.n1gy6wwh.gz', total is now 1530300/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_440000-450000 as ok (33.4% => ETA Mon Feb 14 18:33:22 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_490000-500000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_590000-600000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 90964 relations in '/tmp/test346.upload/test346.460000-470000._71r8aiw.gz', total is now 1621264/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_460000-470000 as ok (35.4% => ETA Mon Feb 14 18:32:13 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_500000-510000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_600000-610000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 92682 relations in '/tmp/test346.upload/test346.470000-480000.zs8x_x8v.gz', total is now 1713946/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_470000-480000 as ok (37.4% => ETA Mon Feb 14 18:33:42 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_510000-520000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_610000-620000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 84253 relations in '/tmp/test346.upload/test346.490000-500000.zx5ez8vr.gz', total is now 1798199/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_490000-500000 as ok (39.2% => ETA Mon Feb 14 18:32:52 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_520000-530000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_620000-630000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 90460 relations in '/tmp/test346.upload/test346.480000-490000.v0uxz9ce.gz', total is now 1888659/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_480000-490000 as ok (41.2% => ETA Mon Feb 14 18:32:21 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 80278 relations in '/tmp/test346.upload/test346.500000-510000.snl69oev.gz', total is now 1968937/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_500000-510000 as ok (42.9% => ETA Mon Feb 14 18:33:09 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_530000-540000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_630000-640000 to database
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_540000-550000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_640000-650000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 88165 relations in '/tmp/test346.upload/test346.510000-520000.2ak5w8n3.gz', total is now 2057102/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_510000-520000 as ok (44.9% => ETA Mon Feb 14 18:32:44 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_550000-560000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_650000-660000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 78670 relations in '/tmp/test346.upload/test346.520000-530000.4k7b11dc.gz', total is now 2135772/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_520000-530000 as ok (46.6% => ETA Mon Feb 14 18:32:26 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_560000-570000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_660000-670000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 84934 relations in '/tmp/test346.upload/test346.530000-540000.vf1zyqxa.gz', total is now 2220706/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_530000-540000 as ok (48.4% => ETA Mon Feb 14 18:32:59 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_570000-580000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_670000-680000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 78521 relations in '/tmp/test346.upload/test346.540000-550000.gkhlb8vm.gz', total is now 2299227/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_540000-550000 as ok (50.2% => ETA Mon Feb 14 18:32:34 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_580000-590000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_680000-690000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 82076 relations in '/tmp/test346.upload/test346.550000-560000.n015ef5j.gz', total is now 2381303/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_550000-560000 as ok (51.9% => ETA Mon Feb 14 18:32:38 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_590000-600000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_690000-700000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 80686 relations in '/tmp/test346.upload/test346.560000-570000.7seu1qd9.gz', total is now 2461989/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_560000-570000 as ok (53.7% => ETA Mon Feb 14 18:32:47 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_600000-610000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_700000-710000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 78393 relations in '/tmp/test346.upload/test346.570000-580000.nzl6vhnc.gz', total is now 2540382/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_570000-580000 as ok (55.4% => ETA Mon Feb 14 18:32:26 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_610000-620000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_710000-720000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 85132 relations in '/tmp/test346.upload/test346.580000-590000.4onay4u1.gz', total is now 2625514/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_580000-590000 as ok (57.3% => ETA Mon Feb 14 18:32:54 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_620000-630000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_720000-730000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 75996 relations in '/tmp/test346.upload/test346.590000-600000.1lqdp667.gz', total is now 2701510/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_590000-600000 as ok (58.9% => ETA Mon Feb 14 18:32:32 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_630000-640000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_730000-740000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 82885 relations in '/tmp/test346.upload/test346.600000-610000.7cxwzajb.gz', total is now 2784395/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_600000-610000 as ok (60.7% => ETA Mon Feb 14 18:32:27 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_640000-650000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_740000-750000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 77880 relations in '/tmp/test346.upload/test346.610000-620000.t7ny_3hr.gz', total is now 2862275/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_610000-620000 as ok (62.4% => ETA Mon Feb 14 18:32:49 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_650000-660000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_750000-760000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 74517 relations in '/tmp/test346.upload/test346.620000-630000.ejwfb4bp.gz', total is now 2936792/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_620000-630000 as ok (64.1% => ETA Mon Feb 14 18:32:40 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_660000-670000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_760000-770000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 77070 relations in '/tmp/test346.upload/test346.630000-640000.qmsp0d_i.gz', total is now 3013862/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_630000-640000 as ok (65.7% => ETA Mon Feb 14 18:32:25 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_670000-680000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_770000-780000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 80126 relations in '/tmp/test346.upload/test346.640000-650000.rv5nyjg8.gz', total is now 3093988/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_640000-650000 as ok (67.5% => ETA Mon Feb 14 18:32:47 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_680000-690000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_780000-790000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 78516 relations in '/tmp/test346.upload/test346.650000-660000.ros9_blb.gz', total is now 3172504/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_650000-660000 as ok (69.2% => ETA Mon Feb 14 18:32:46 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_690000-700000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_790000-800000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 74905 relations in '/tmp/test346.upload/test346.660000-670000.lf7st9gh.gz', total is now 3247409/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_660000-670000 as ok (70.8% => ETA Mon Feb 14 18:32:21 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_700000-710000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_800000-810000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 79565 relations in '/tmp/test346.upload/test346.670000-680000.ofiy32li.gz', total is now 3326974/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_670000-680000 as ok (72.6% => ETA Mon Feb 14 18:33:00 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_710000-720000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_810000-820000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 72980 relations in '/tmp/test346.upload/test346.680000-690000._x6nr6o4.gz', total is now 3399954/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_680000-690000 as ok (74.2% => ETA Mon Feb 14 18:32:42 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_720000-730000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_820000-830000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 71073 relations in '/tmp/test346.upload/test346.690000-700000.cav5kccx.gz', total is now 3471027/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_690000-700000 as ok (75.7% => ETA Mon Feb 14 18:32:18 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_730000-740000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_830000-840000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 75907 relations in '/tmp/test346.upload/test346.710000-720000.s8mxzpvc.gz', total is now 3546934/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_710000-720000 as ok (77.4% => ETA Mon Feb 14 18:33:07 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_740000-750000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_840000-850000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 74285 relations in '/tmp/test346.upload/test346.720000-730000.w1i9il43.gz', total is now 3621219/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_720000-730000 as ok (79.0% => ETA Mon Feb 14 18:32:44 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_750000-760000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_850000-860000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 75645 relations in '/tmp/test346.upload/test346.700000-710000.z09oneh1.gz', total is now 3696864/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_700000-710000 as ok (80.6% => ETA Mon Feb 14 18:32:21 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_760000-770000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_860000-870000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 75756 relations in '/tmp/test346.upload/test346.730000-740000.zo9jqese.gz', total is now 3772620/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_730000-740000 as ok (82.3% => ETA Mon Feb 14 18:33:04 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 72369 relations in '/tmp/test346.upload/test346.740000-750000.3bgaiejd.gz', total is now 3844989/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_740000-750000 as ok (83.9% => ETA Mon Feb 14 18:32:43 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_770000-780000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_870000-880000 to database
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_780000-790000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_880000-890000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 73479 relations in '/tmp/test346.upload/test346.750000-760000.hvgb8lq9.gz', total is now 3918468/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_750000-760000 as ok (85.5% => ETA Mon Feb 14 18:32:35 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_790000-800000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_890000-900000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 72635 relations in '/tmp/test346.upload/test346.760000-770000.ejjo89g5.gz', total is now 3991103/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_760000-770000 as ok (87.1% => ETA Mon Feb 14 18:33:02 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_800000-810000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_900000-910000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 72748 relations in '/tmp/test346.upload/test346.770000-780000.vwlvpzxx.gz', total is now 4063851/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_770000-780000 as ok (88.6% => ETA Mon Feb 14 18:32:45 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_810000-820000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_910000-920000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 73520 relations in '/tmp/test346.upload/test346.780000-790000.wyjs81bx.gz', total is now 4137371/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_780000-790000 as ok (90.2% => ETA Mon Feb 14 18:32:48 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_820000-830000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_920000-930000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 68795 relations in '/tmp/test346.upload/test346.790000-800000.ydluerpi.gz', total is now 4206166/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_790000-800000 as ok (91.7% => ETA Mon Feb 14 18:33:02 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_830000-840000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_930000-940000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 75294 relations in '/tmp/test346.upload/test346.800000-810000.dbcr9oy2.gz', total is now 4281460/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_800000-810000 as ok (93.4% => ETA Mon Feb 14 18:32:47 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_840000-850000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_940000-950000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 65896 relations in '/tmp/test346.upload/test346.810000-820000.njr9qsr_.gz', total is now 4347356/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_810000-820000 as ok (94.8% => ETA Mon Feb 14 18:32:54 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_850000-860000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_950000-960000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 76508 relations in '/tmp/test346.upload/test346.820000-830000.i7zqned2.gz', total is now 4423864/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_820000-830000 as ok (96.5% => ETA Mon Feb 14 18:33:05 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_860000-870000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_960000-970000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 69290 relations in '/tmp/test346.upload/test346.830000-840000._nyr_wgn.gz', total is now 4493154/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_830000-840000 as ok (98.0% => ETA Mon Feb 14 18:32:49 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.143 Sending workunit test346_sieving_870000-880000 to client testcado5c-d65688f9c-d9xt7.67217617
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_970000-980000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 68473 relations in '/tmp/test346.upload/test346.840000-850000.vqdd77of.gz', total is now 4561627/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_840000-850000 as ok (99.5% => ETA Mon Feb 14 18:33:02 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.144 Sending workunit test346_sieving_880000-890000 to client testcado5c-d65688f9c-pcdp8.4faa499
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_980000-990000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 70232 relations in '/tmp/test346.upload/test346.850000-860000.33xgmf4q.gz', total is now 4631859/4584686
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test346_sieving_850000-860000 as ok (101.0% => ETA Mon Feb 14 18:33:08 2022)
+[32;1mInfo[0m:HTTP server: 10.244.34.142 Sending workunit test346_sieving_890000-900000 to client testcado5c-d65688f9c-xssdd.6a485e64
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_990000-1000000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 4584686 relations, now have 4631859
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 4631859
+[32;1mInfo[0m:Lattice Sieving: Average J: 1884.19 for 41993 special-q, max bucket fill -bkmult 1.0,1s:1.140850
+[32;1mInfo[0m:Lattice Sieving: Total time: 3610.06s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 56 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 2315575, 1: 2316284
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 23.17/6.91723
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 6.8s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 1863994 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 1864225 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 4631859 newly added relations 3728219 were unique (ratio 0.804908)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 3728219 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 52.42/15.2038
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 13.5s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 3728219 unique and 17348 free relations, total 3745567
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 1148809 relations with 1148639 primes remain with weight 20841029 and excess 170
+[32;1mInfo[0m:Filtering - Singleton removal: Have enough relations
+[32;1mInfo[0m:HTTP server: Got notification to stop serving Workunits
+[32;1mInfo[0m:Lattice Sieving: Cancelling remaining workunits
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 17.17/8.85759
+[32;1mInfo[0m:Filtering - Merging: Starting
+[33;1mWarning[0m:HTTP server: 10.244.34.143 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.244.34.143 code 410, message Distributed computation finished
+[32;1mInfo[0m:Filtering - Merging: Merged matrix has 223889 rows and total weight 32806862 (146.5 entries per row on average)
+[33;1mWarning[0m:HTTP server: 10.244.34.144 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.244.34.143 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.244.34.144 code 410, message Distributed computation finished
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 33.61/18.5222
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 7.93/6.77171
+[32;1mInfo[0m:Linear Algebra: Starting
+[33;1mWarning[0m:HTTP server: 10.244.34.142 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.244.34.142 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.244.34.144 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=128 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=256 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=384 ; ETA (N=7040): Mon Feb 14 18:37:34 2022 [0.026 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.142 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=512 ; ETA (N=7040): Mon Feb 14 18:37:33 2022 [0.026 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.143 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=640 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=768 ; ETA (N=7040): Mon Feb 14 18:37:39 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=896 ; ETA (N=7040): Mon Feb 14 18:37:40 2022 [0.027 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.144 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=1024 ; ETA (N=7040): Mon Feb 14 18:37:42 2022 [0.027 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1152 ; ETA (N=7040): Mon Feb 14 18:37:45 2022 [0.027 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1280 ; ETA (N=7040): Mon Feb 14 18:37:44 2022 [0.027 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1408 ; ETA (N=7040): Mon Feb 14 18:37:43 2022 [0.027 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.142 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=1536 ; ETA (N=7040): Mon Feb 14 18:37:43 2022 [0.027 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1664 ; ETA (N=7040): Mon Feb 14 18:37:42 2022 [0.027 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1792 ; ETA (N=7040): Mon Feb 14 18:37:41 2022 [0.027 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1920 ; ETA (N=7040): Mon Feb 14 18:37:40 2022 [0.027 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2048 ; ETA (N=7040): Mon Feb 14 18:37:39 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2176 ; ETA (N=7040): Mon Feb 14 18:37:39 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2304 ; ETA (N=7040): Mon Feb 14 18:37:38 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2432 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2560 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.143 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.244.34.144 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=2688 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2816 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2944 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3072 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3200 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.142 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=3328 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3456 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3584 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3712 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3840 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3968 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4096 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4224 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4352 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4480 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4608 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4736 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4864 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4992 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5120 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5248 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5376 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5504 ; ETA (N=7040): Mon Feb 14 18:37:35 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5632 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5760 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.143 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=5888 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6016 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6144 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.144 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=6272 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.142 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: krylov: N=6400 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6528 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6656 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6784 ; ETA (N=7040): Mon Feb 14 18:37:36 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6912 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=7040 ; ETA (N=7040): Mon Feb 14 18:37:37 2022 [0.026 s/iter]
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: Mon Feb 14 18:38:12 2022
+[32;1mInfo[0m:Linear Algebra: mksol: N=128 ; ETA (N=3584): Mon Feb 14 18:39:51 2022 [0.028 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=256 ; ETA (N=3584): Mon Feb 14 18:39:55 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=384 ; ETA (N=3584): Mon Feb 14 18:39:56 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=512 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=640 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=768 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=896 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1024 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1152 ; ETA (N=3584): Mon Feb 14 18:39:56 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1280 ; ETA (N=3584): Mon Feb 14 18:39:56 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1408 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1536 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1664 ; ETA (N=3584): Mon Feb 14 18:39:56 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1792 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1920 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2048 ; ETA (N=3584): Mon Feb 14 18:39:56 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2176 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2304 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2432 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2560 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2688 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2816 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2944 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3072 ; ETA (N=3584): Mon Feb 14 18:39:57 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3200 ; ETA (N=3584): Mon Feb 14 18:39:58 2022 [0.029 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3328 ; ETA (N=3584): Mon Feb 14 18:39:58 2022 [0.030 s/iter]
+[33;1mWarning[0m:HTTP server: 10.244.34.143 code 410, message Distributed computation finished
+[32;1mInfo[0m:Linear Algebra: mksol: N=3456 ; ETA (N=3584): Mon Feb 14 18:39:58 2022 [0.030 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3498 ; ETA (N=3584): Mon Feb 14 18:39:59 2022 [0.030 s/iter]
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 2916.42/332.35
+[32;1mInfo[0m:Linear Algebra: Aggregate statistics:
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 353.0, WCT time 184.49, iteration CPU time 0.02, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (7040 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 2356.09, WCT time 35.18
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 193.84,  WCT time 104.38, iteration CPU time 0.03, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (3584 iterations)
+[32;1mInfo[0m:Quadratic Characters: Starting
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 7.75/4.4411
+[32;1mInfo[0m:Square Root: Starting
+[32;1mInfo[0m:Square Root: Creating file of (a,b) values
+[33;1mWarning[0m:HTTP server: 10.244.34.144 code 410, message Distributed computation finished
+[32;1mInfo[0m:Square Root: finished
+[32;1mInfo[0m:Square Root: Factors: 16347066195737977199795403886578101002006046911802287 7699755893344333875738758125060994305085767708121939
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 83.47/11.0192
+[32;1mInfo[0m:Polynomial Selection (size optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (size optimized): potential collisions: 9603.68
+[32;1mInfo[0m:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 9692/30.370/36.764/41.730/1.067
+[32;1mInfo[0m:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 7423/29.140/32.646/37.220/0.865
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 417.08
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 52.42/15.2038
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 13.5s
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 7.75/4.4411
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 83.47/11.0192
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 1.31/0.690306
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 2916.42/332.35
+[32;1mInfo[0m:Linear Algebra: Aggregate statistics:
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 353.0, WCT time 184.49, iteration CPU time 0.02, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (7040 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 2356.09, WCT time 35.18
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 193.84,  WCT time 104.38, iteration CPU time 0.03, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (3584 iterations)
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 17.17/8.85759
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 4631859
+[32;1mInfo[0m:Lattice Sieving: Average J: 1884.19 for 41993 special-q, max bucket fill -bkmult 1.0,1s:1.140850
+[32;1mInfo[0m:Lattice Sieving: Total time: 3610.06s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 23.17/6.91723
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 6.8s
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 50.45/24.9401
+[32;1mInfo[0m:Polynomial Selection (root optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 132.01
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 131.51
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 33.61/18.5222
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 7.93/6.77171
+[32;1mInfo[0m:HTTP server: Shutting down HTTP server
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Total cpu/elapsed time for entire factorization: 11021.1/1791.01
+16347066195737977199795403886578101002006046911802287 7699755893344333875738758125060994305085767708121939
