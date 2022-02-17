@@ -24,7 +24,7 @@ Create a repository
     - `gcloud config set project $PROJECT_ID`
 3. Create the `cado-nfs-repo`
     ``` bash
-    gcloud artifacts repositories create cado-nfs-repo --repository-format=docker --location=us-west2 --description="Docker repository"
+    gcloud artifacts repositories create cado-nfs-repo --repository-format=docker --location=us-central1 --description="Docker repository"
     ```
 
 Get the Docker Image
@@ -32,18 +32,18 @@ Get the Docker Image
     - `docker pull jessica948/cadonfs:latest`
 
 Push the Image to the Registry
-1. Set up Docker auth in your region (I use `us-west2`)
-    - `gcloud auth configure-docker us-west2-docker.pkg.dev`
+1. Set up Docker auth in your region (I use `us-central1`)
+    - `gcloud auth configure-docker us-central1-docker.pkg.dev`
 2. Tag your image
-    - `docker tag jessica948/cadonfs:latest us-west2-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs`
+    - `docker tag jessica948/cadonfs:latest us-central1-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs`
 3. Push the image
-    - `docker push us-west2-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs`
+    - `docker push us-central1-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs`
     - make sure the right docker config is being used (its in your account's home directory, not under root, etc.) otherwise you may be getting permission denied errors
 
 ### Setting up with Google Cloud
 Create a GKE Cluster
-1. For a standard cluster, set your zone
-    - `gcloud config set compute/zone us-west2-a`
+1. For a standard cluster, set your zone (I chose central1 because it seems to be the cheapest)
+    - `gcloud config set compute/zone us-central1-a`
 2. Create the standard cluster
     - `gcloud container clusters create cadonfs-cluster`
     - this will take a while
@@ -55,6 +55,6 @@ Clean up to prevent extra incurred costs
 1. Delete pods, services, and deployments
     - `kubectl delete [svc, deployment, pods] [name]`
 2. Delete the cluster
-    - `gcloud container clusters delete cadonfs-cluster --zone us-west2-a`
+    - `gcloud container clusters delete cadonfs-cluster --zone us-central1-a`
 4. Clean up the artifact registry
-    - `gcloud artifacts docker images delete us-west2-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs:latest --delete-tags`
+    - `gcloud artifacts docker images delete us-central1-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs:latest --delete-tags`
