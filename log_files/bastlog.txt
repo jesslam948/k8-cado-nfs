@@ -1,3 +1,4 @@
+# bastion k8 setup with params1 (255 bits) 
 [33;1mWarning[0m:Parameters: Parameter tasks.execpath, previously set to value /cado-nfs/build/cado-nfs-build, overwritten with value $(builddir)
 [32;1mInfo[0m:root: No database exists yet
 [32;1mInfo[0m:Database: Opened connection to database /tmp/test255.db

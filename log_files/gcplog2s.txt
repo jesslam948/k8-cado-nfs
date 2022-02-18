@@ -1,0 +1,313 @@
+# gcp cluster with 1 e2-standard-2 node param2 (346 bits) -- server log
+[33;1mWarning[0m:Parameters: Parameter tasks.execpath, previously set to value /cado-nfs/build/cado-nfs-build, overwritten with value $(builddir)
+[32;1mInfo[0m:root: No database exists yet
+[32;1mInfo[0m:Database: Opened connection to database /tmp/test346.db
+[32;1mInfo[0m:root: tasks.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: tasks.polyselect.threads = 2 [via tasks.polyselect.threads]
+[32;1mInfo[0m:root: tasks.sieve.las.threads = 2 [via tasks.sieve.las.threads]
+[32;1mInfo[0m:root: tasks.linalg.bwc.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: tasks.sqrt.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: Command line parameters: ./cado-nfs.py /etc/config/params
+[32;1mInfo[0m:root: If this computation gets interrupted, it can be resumed with ./cado-nfs.py /tmp/test346.parameters_snapshot.0
+[32;1mInfo[0m:HTTP server: Using non-threaded HTTP server
+[32;1mInfo[0m:HTTP server: Using whitelist: 0.0.0.0/0
+[32;1mInfo[0m:Lattice Sieving: param rels_wanted is 0
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Factoring 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+[32;1mInfo[0m:HTTP server: serving at http://cadoserver:8012 (0.0.0.0)
+[32;1mInfo[0m:HTTP server: For debugging purposes, the URL above can be accessed if the server.only_registered=False parameter is added
+[32;1mInfo[0m:HTTP server: You can start additional cado-nfs-client.py scripts with parameters: --server=http://cadoserver:8012
+[32;1mInfo[0m:HTTP server: If you want to start additional clients, remember to add their hosts to server.whitelist
+[32;1mInfo[0m:Polynomial Selection (size optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (size optimized): 0 polynomials in queue from previous run
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_0-4000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_4000-8000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_8000-12000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_12000-16000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_16000-20000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_20000-24000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_24000-28000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_28000-32000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_32000-36000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test346_polyselect1_36000-40000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_polyselect1_0-4000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_polyselect1_4000-8000 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_polyselect1_8000-12000 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_polyselect1_12000-16000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 675 polynomials, added 152 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 27.220000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_0-4000 as ok (10.0% => ETA Unknown)
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_polyselect1_16000-20000 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 694 polynomials, added 25 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 27.050000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_4000-8000 as ok (20.0% => ETA Fri Feb 18 18:48:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_polyselect1_20000-24000 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 748 polynomials, added 5 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 27.040000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_8000-12000 as ok (30.0% => ETA Fri Feb 18 18:39:16 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_polyselect1_24000-28000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 709 polynomials, added 12 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.970000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_12000-16000 as ok (40.0% => ETA Fri Feb 18 18:41:40 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_polyselect1_28000-32000 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 760 polynomials, added 11 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.890000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_16000-20000 as ok (50.0% => ETA Fri Feb 18 18:39:05 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_polyselect1_32000-36000 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 739 polynomials, added 2 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.870000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_20000-24000 as ok (60.0% => ETA Fri Feb 18 18:37:19 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_polyselect1_36000-40000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 759 polynomials, added 2 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.870000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_24000-28000 as ok (70.0% => ETA Fri Feb 18 18:38:42 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 784 polynomials, added 4 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.850000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_28000-32000 as ok (80.0% => ETA Fri Feb 18 18:37:39 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Resubmitting workunit test346_polyselect1_32000-36000 as test346_polyselect1_32000-36000#2
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_polyselect1_32000-36000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[33;1mWarning[0m:Database: If workunits get cancelled due to timeout even though the clients are still processing them, consider increasing the tasks.wutimeout parameter or decreasing the range covered in each workunit, i.e., the tasks.polyselect.adrange or tasks.sieve.qrange parameters.
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_polyselect1_32000-36000#2 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 742 polynomials, added 3 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.810000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_36000-40000 as ok (90.0% => ETA Fri Feb 18 18:37:56 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 813 polynomials, added 5 to priority queue (has 50)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 26.790000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test346_polyselect1_32000-36000#2 as ok (100.0% => ETA Fri Feb 18 18:37:10 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Finished
+[32;1mInfo[0m:Polynomial Selection (size optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (size optimized): potential collisions: 9603.68
+[32;1mInfo[0m:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 9692/30.370/36.764/41.730/1.067
+[32;1mInfo[0m:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 7423/29.140/32.646/37.220/0.865
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 836.38
+[32;1mInfo[0m:Polynomial Selection (root optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (root optimized): No polynomial was previously found
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_0-1 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_6-7 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_12-13 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_18-19 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_24-25 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_30-31 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_36-37 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_42-43 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test346_polyselect2_48-49 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_polyselect2_0-1 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_polyselect2_6-7 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_polyselect2_12-13 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_polyselect2_18-19 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.6kfhq0hx.opt_0: Murphy E = 2.595e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.6kfhq0hx.opt_0 with E=2.506e-06 is no better than current best with E=2.595e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.6kfhq0hx.opt_0: Murphy E = 2.973e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.6kfhq0hx.opt_0: Murphy E = 3.090e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.6kfhq0hx.opt_0: Murphy E = 3.236e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.6kfhq0hx.opt_0 with E=3.001e-06 is no better than current best with E=3.236e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_0-1 as ok (4.0% => ETA Unknown)
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_polyselect2_24-25 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.5u4j0wca.opt_12: Murphy E = 3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5u4j0wca.opt_12 with E=3.028e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5u4j0wca.opt_12 with E=3.030e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5u4j0wca.opt_12 with E=2.625e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5u4j0wca.opt_12 with E=2.921e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5u4j0wca.opt_12 with E=2.665e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_12-13 as ok (16.0% => ETA Fri Feb 18 18:43:59 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_polyselect2_30-31 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.ge14vp4v.opt_6 with E=2.943e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.ge14vp4v.opt_6 with E=2.958e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.ge14vp4v.opt_6 with E=2.654e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.ge14vp4v.opt_6 with E=2.873e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.ge14vp4v.opt_6 with E=3.191e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.ge14vp4v.opt_6 with E=3.197e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_6-7 as ok (28.0% => ETA Fri Feb 18 18:41:47 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_polyselect2_36-37 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.gcrqbpcl.opt_24 with E=3.061e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.gcrqbpcl.opt_24 with E=3.050e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.gcrqbpcl.opt_24 with E=2.868e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.gcrqbpcl.opt_24 with E=2.887e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.gcrqbpcl.opt_24 with E=2.785e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.gcrqbpcl.opt_24 with E=2.575e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_24-25 as ok (40.0% => ETA Fri Feb 18 18:40:55 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_polyselect2_42-43 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.bbr7b4_4.opt_30 with E=2.874e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.bbr7b4_4.opt_30 with E=3.020e-06 is no better than current best with E=3.302e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.bbr7b4_4.opt_30: Murphy E = 3.364e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.bbr7b4_4.opt_30 with E=3.170e-06 is no better than current best with E=3.364e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.bbr7b4_4.opt_30 with E=2.601e-06 is no better than current best with E=3.364e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test346.upload/test346.polyselect2.bbr7b4_4.opt_30: Murphy E = 3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_30-31 as ok (52.0% => ETA Fri Feb 18 18:40:35 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.i2ka3lwm.opt_18 with E=2.990e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.i2ka3lwm.opt_18 with E=2.996e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.i2ka3lwm.opt_18 with E=3.102e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.i2ka3lwm.opt_18 with E=3.008e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.i2ka3lwm.opt_18 with E=2.723e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.i2ka3lwm.opt_18 with E=3.203e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_18-19 as ok (64.0% => ETA Fri Feb 18 18:40:06 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_polyselect2_48-49 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5rj4k7tl.opt_36 with E=2.681e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5rj4k7tl.opt_36 with E=2.556e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5rj4k7tl.opt_36 with E=2.996e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5rj4k7tl.opt_36 with E=3.062e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5rj4k7tl.opt_36 with E=2.954e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.5rj4k7tl.opt_36 with E=3.009e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_36-37 as ok (76.0% => ETA Fri Feb 18 18:39:41 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.lx2n7b_8.opt_48 with E=3.249e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.lx2n7b_8.opt_48 with E=3.353e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_48-49 as ok (88.0% => ETA Fri Feb 18 18:39:29 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zfw13yue.opt_42 with E=2.958e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zfw13yue.opt_42 with E=2.747e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zfw13yue.opt_42 with E=3.243e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zfw13yue.opt_42 with E=1.938e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zfw13yue.opt_42 with E=3.381e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test346.upload/test346.polyselect2.zfw13yue.opt_42 with E=2.740e-06 is no better than current best with E=3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test346_polyselect2_42-43 as ok (100.0% => ETA Fri Feb 18 18:39:15 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Kept 40 polynomials with MurphyE from 3.382e-06 to 2.723e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.0 had MurphyE 3.382e-06, refined to 3.477e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.1 had MurphyE 3.381e-06, refined to 3.352e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.2 had MurphyE 3.364e-06, refined to 3.365e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.3 had MurphyE 3.353e-06, refined to 3.343e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.4 had MurphyE 3.302e-06, refined to 3.326e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.5 had MurphyE 3.249e-06, refined to 3.214e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.6 had MurphyE 3.243e-06, refined to 3.206e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.7 had MurphyE 3.236e-06, refined to 3.208e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.8 had MurphyE 3.203e-06, refined to 3.222e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.9 had MurphyE 3.197e-06, refined to 3.189e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.10 had MurphyE 3.191e-06, refined to 3.104e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.11 had MurphyE 3.170e-06, refined to 3.179e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.12 had MurphyE 3.102e-06, refined to 3.058e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.13 had MurphyE 3.090e-06, refined to 3.114e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.14 had MurphyE 3.062e-06, refined to 3.023e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.15 had MurphyE 3.061e-06, refined to 3.075e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.16 had MurphyE 3.050e-06, refined to 3.086e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.17 had MurphyE 3.030e-06, refined to 3.000e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.18 had MurphyE 3.028e-06, refined to 3.052e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.19 had MurphyE 3.020e-06, refined to 3.063e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.20 had MurphyE 3.009e-06, refined to 2.974e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.21 had MurphyE 3.008e-06, refined to 3.037e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.22 had MurphyE 3.001e-06, refined to 2.943e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.23 had MurphyE 2.996e-06, refined to 2.998e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.24 had MurphyE 2.996e-06, refined to 2.987e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.25 had MurphyE 2.990e-06, refined to 3.025e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.26 had MurphyE 2.973e-06, refined to 3.003e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.27 had MurphyE 2.958e-06, refined to 2.961e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.28 had MurphyE 2.958e-06, refined to 2.964e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.29 had MurphyE 2.954e-06, refined to 2.902e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.30 had MurphyE 2.943e-06, refined to 2.941e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.31 had MurphyE 2.921e-06, refined to 2.908e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.32 had MurphyE 2.887e-06, refined to 2.876e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.33 had MurphyE 2.874e-06, refined to 2.854e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.34 had MurphyE 2.873e-06, refined to 2.869e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.35 had MurphyE 2.868e-06, refined to 2.856e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.36 had MurphyE 2.785e-06, refined to 2.810e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.37 had MurphyE 2.747e-06, refined to 2.711e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.38 had MurphyE 2.740e-06, refined to 2.745e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test346.poly.39 had MurphyE 2.723e-06, refined to 2.706e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial is /tmp/test346.poly.0
+[32;1mInfo[0m:Polynomial Selection (root optimized): Finished, best polynomial has Murphy_E = 3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial is:
+n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+skew: 3449.46
+c0: -14286378990381855344892
+c1: -9216703856464715704
+c2: -9244961194776483
+c3: 1741288970963
+c4: 267861630
+c5: 48600
+Y0: -79051137083745465181
+Y1: 7656697313448013
+# MurphyE (Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12) = 3.382e-06
+# f(x) = 48600*x^5+267861630*x^4+1741288970963*x^3-9244961194776483*x^2-9216703856464715704*x-14286378990381855344892
+# g(x) = 7656697313448013*x-79051137083745465181
+
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best overall polynomial was 1-th in list after size optimization
+[32;1mInfo[0m:Polynomial Selection (root optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 218.52
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 217.51
+[32;1mInfo[0m:Generate Factor Base: Starting
+[32;1mInfo[0m:Generate Factor Base: Finished
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 2.16/1.18009
+[32;1mInfo[0m:Generate Free Relations: Starting
+[32;1mInfo[0m:Generate Free Relations: Found 17348 free relations
+[32;1mInfo[0m:Generate Free Relations: Finished
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 95.87/51.5666
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 4584686 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_300000-310000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_310000-320000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_320000-330000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_330000-340000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_340000-350000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_350000-360000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_360000-370000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_370000-380000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_380000-390000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_390000-400000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_300000-310000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_400000-410000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_310000-320000 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_410000-420000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_320000-330000 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test346_sieving_420000-430000 to database
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_300000-310000 as test346_sieving_300000-310000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_310000-320000 as test346_sieving_310000-320000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_320000-330000 as test346_sieving_320000-330000#2
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_310000-320000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_330000-340000 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_300000-310000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_340000-350000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_320000-330000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_350000-360000 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_330000-340000 as test346_sieving_330000-340000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_340000-350000 as test346_sieving_340000-350000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_350000-360000 as test346_sieving_350000-360000#2
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_330000-340000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_360000-370000 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_340000-350000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_370000-380000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_350000-360000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_380000-390000 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_360000-370000 as test346_sieving_360000-370000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_370000-380000 as test346_sieving_370000-380000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_380000-390000 as test346_sieving_380000-390000#2
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_360000-370000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_390000-400000 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_370000-380000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_400000-410000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_380000-390000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_410000-420000 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_390000-400000 as test346_sieving_390000-400000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_400000-410000 as test346_sieving_400000-410000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_410000-420000 as test346_sieving_410000-420000#2
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_400000-410000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_420000-430000 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_390000-400000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_300000-310000#2 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_410000-420000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_310000-320000#2 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_420000-430000 as test346_sieving_420000-430000#2
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_300000-310000#2 as test346_sieving_300000-310000#3
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_310000-320000#2 as test346_sieving_310000-320000#3
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_420000-430000 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_320000-330000#2 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_300000-310000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_330000-340000#2 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_310000-320000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_340000-350000#2 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_320000-330000#2 as test346_sieving_320000-330000#3
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_330000-340000#2 as test346_sieving_330000-340000#3
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_340000-350000#2 as test346_sieving_340000-350000#3
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_320000-330000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_350000-360000#2 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_330000-340000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_360000-370000#2 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_340000-350000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_370000-380000#2 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_350000-360000#2 as test346_sieving_350000-360000#3
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_360000-370000#2 as test346_sieving_360000-370000#3
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_370000-380000#2 as test346_sieving_370000-380000#3
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_360000-370000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.11 Sending workunit test346_sieving_380000-390000#2 to client cadoclient-7989f6d464-zr9d8.ed47195a
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_350000-360000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.12 Sending workunit test346_sieving_390000-400000#2 to client cadoclient-7989f6d464-mkpfx.cc40068b
+[33;1mWarning[0m:Database: WuAccess._checkstatus(): Workunit test346_sieving_370000-380000#2 has status 7 (CANCELLED), expected 1 (ASSIGNED), presumably timed out
+[32;1mInfo[0m:HTTP server: 10.96.0.13 Sending workunit test346_sieving_400000-410000#2 to client cadoclient-7989f6d464-bghk7.a661334
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_380000-390000#2 as test346_sieving_380000-390000#3
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_390000-400000#2 as test346_sieving_390000-400000#3
+[32;1mInfo[0m:Lattice Sieving: Resubmitting workunit test346_sieving_400000-410000#2 as test346_sieving_400000-410000#3

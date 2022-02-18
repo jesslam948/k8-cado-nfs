@@ -1,0 +1,93 @@
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 18.82
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 15.2
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 15.08
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 0.07/0.0387459
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 2.6/1.33906
+[32;1mInfo[0m:Lattice Sieving: Total time: 105.4s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 0.65/0.352547
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 1.23/0.589059
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 0.4s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 0.21/0.135908
+[32;1mInfo[0m:Lattice Sieving: Total time: 121.74s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 0.77/0.486557
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 1.75/0.979206
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 0.6s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 0.47/0.294461
+[32;1mInfo[0m:Lattice Sieving: Total time: 138.76s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 0.86/0.619959
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 2.3/1.39917
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 0.7999999999999999s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 0.72/0.455791
+[32;1mInfo[0m:Lattice Sieving: Total time: 152.98s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 0.95/0.745177
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 2.83/1.80707
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 0.9999999999999999s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 0.99/0.636664
+[32;1mInfo[0m:Lattice Sieving: Total time: 166.08s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.06/0.882126
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 3.44/2.24475
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 1.2s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 1.27/0.814603
+[32;1mInfo[0m:Lattice Sieving: Total time: 181.51s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.15/1.00895
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 4.01/2.69078
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 1.4000000000000001s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 1.59/1.00731
+[32;1mInfo[0m:Lattice Sieving: Total time: 193.9s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.21/1.14074
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 4.62/3.15609
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 1.6000000000000003s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 1.92/1.22184
+[32;1mInfo[0m:Lattice Sieving: Total time: 210.28s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.31/1.27589
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 5.24/3.63802
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 1.8000000000000005s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 2.27/1.43985
+[32;1mInfo[0m:Lattice Sieving: Total time: 226.35s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.41/1.41255
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 5.88/4.14162
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 2.0000000000000004s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 2.64/1.67639
+[32;1mInfo[0m:Lattice Sieving: Total time: 242.75s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.52/1.54927
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 6.55/4.68144
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 2.2000000000000006s
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 3.63/2.30213
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 2.13/1.08902
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 0.44/0.381279
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 143.71/10.63
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 1.25, WCT time 0.79, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (448 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 140.91, WCT time 8.89
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 0.82,  WCT time 0.67, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (256 iterations)
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 0.44/0.261082
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 5.2/1.61053
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 18.82
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 2.6/1.33906
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 0.44/0.261082
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 5.2/1.61053
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 6.55/4.68144
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 2.2000000000000006s
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 143.71/10.63
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 1.25, WCT time 0.79, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (448 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 140.91, WCT time 8.89
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 0.82,  WCT time 0.67, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (256 iterations)
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 0.07/0.0387459
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 3.63/2.30213
+[32;1mInfo[0m:Lattice Sieving: Total time: 242.75s
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 15.2
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 15.08
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.52/1.54927
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 0.3s
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 2.13/1.08902
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 0.44/0.381279
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Total cpu/elapsed time for entire factorization: 660.04/132.462

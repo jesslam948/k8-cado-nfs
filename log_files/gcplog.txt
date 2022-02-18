@@ -1,0 +1,996 @@
+# gcp cluster with 1 e2-standard-2 node param1 (255 bits)
+[33;1mWarning[0m:Parameters: Parameter tasks.execpath, previously set to value /cado-nfs/build/cado-nfs-build, overwritten with value $(builddir)
+[32;1mInfo[0m:root: No database exists yet
+[32;1mInfo[0m:Database: Opened connection to database /tmp/test255.db
+[32;1mInfo[0m:root: tasks.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: tasks.polyselect.threads = 2 [via tasks.polyselect.threads]
+[32;1mInfo[0m:root: tasks.sieve.las.threads = 2 [via tasks.sieve.las.threads]
+[32;1mInfo[0m:root: tasks.linalg.bwc.threads = 2x2 [via tasks.linalg.bwc.threads]
+[32;1mInfo[0m:root: tasks.sqrt.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: Command line parameters: ./cado-nfs.py /etc/config/params
+[32;1mInfo[0m:root: If this computation gets interrupted, it can be resumed with ./cado-nfs.py /tmp/test255.parameters_snapshot.0
+[32;1mInfo[0m:HTTP server: Using non-threaded HTTP server
+[32;1mInfo[0m:HTTP server: Using whitelist: 0.0.0.0/0
+[32;1mInfo[0m:Lattice Sieving: param rels_wanted is 122540
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Factoring 35295767190599515556457508590902102808424880879160273096932634590422763883779
+[32;1mInfo[0m:HTTP server: serving at http://cadoserver:8012 (0.0.0.0)
+[32;1mInfo[0m:HTTP server: For debugging purposes, the URL above can be accessed if the server.only_registered=False parameter is added
+[32;1mInfo[0m:HTTP server: You can start additional cado-nfs-client.py scripts with parameters: --server=http://cadoserver:8012
+[32;1mInfo[0m:HTTP server: If you want to start additional clients, remember to add their hosts to server.whitelist
+[32;1mInfo[0m:Polynomial Selection (size optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (size optimized): 0 polynomials in queue from previous run
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test255_polyselect1_0-5000 to database
+[32;1mInfo[0m:Polynomial Selection (size optimized): Adding workunit test255_polyselect1_5000-10000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_polyselect1_0-5000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_polyselect1_5000-10000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 1201 polynomials, added 103 to priority queue (has 20)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 23.170000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test255_polyselect1_0-5000 as ok (50.0% => ETA Unknown)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Parsed 1071 polynomials, added 3 to priority queue (has 20)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Worst polynomial in queue now has exp_E 23.120000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Marking workunit test255_polyselect1_5000-10000 as ok (100.0% => ETA Mon Feb 14 19:44:36 2022)
+[32;1mInfo[0m:Polynomial Selection (size optimized): Finished
+[32;1mInfo[0m:Polynomial Selection (size optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (size optimized): potential collisions: 1994.68
+[32;1mInfo[0m:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 2839/26.000/31.676/37.900/2.297
+[32;1mInfo[0m:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 2272/24.650/30.769/37.230/2.437
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 35.01
+[32;1mInfo[0m:Polynomial Selection (root optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (root optimized): No polynomial was previously found
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test255_polyselect2_0-1 to database
+[32;1mInfo[0m:Polynomial Selection (root optimized): Adding workunit test255_polyselect2_10-11 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_polyselect2_0-1 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_polyselect2_10-11 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0: Murphy E = 9.556e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0: Murphy E = 1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=9.690e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=1.018e-05 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=8.193e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=9.139e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=8.441e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=7.106e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=8.441e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfl6u9u8.opt_0 with E=7.927e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test255_polyselect2_0-1 as ok (50.0% => ETA Unknown)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=9.689e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=9.495e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=9.803e-06 is no better than current best with E=1.018e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): New best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10: Murphy E = 1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=1.014e-05 is no better than current best with E=1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=9.683e-06 is no better than current best with E=1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=1.069e-05 is no better than current best with E=1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=1.313e-05 is no better than current best with E=1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=9.522e-06 is no better than current best with E=1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial from file /tmp/test255.upload/test255.polyselect2.xfbyp5gr.opt_10 with E=7.106e-06 is no better than current best with E=1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Marking workunit test255_polyselect2_10-11 as ok (100.0% => ETA Mon Feb 14 19:44:52 2022)
+[32;1mInfo[0m:Polynomial Selection (root optimized): Kept 3 polynomials with MurphyE from 1.313e-05 to 1.069e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test255.poly.0 had MurphyE 1.313e-05, refined to 1.319e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test255.poly.1 had MurphyE 1.313e-05, refined to 1.319e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Polynomial /tmp/test255.poly.2 had MurphyE 1.069e-05, refined to 1.061e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial is /tmp/test255.poly.0
+[32;1mInfo[0m:Polynomial Selection (root optimized): Finished, best polynomial has Murphy_E = 1.313e-05
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial is:
+n: 35295767190599515556457508590902102808424880879160273096932634590422763883779
+skew: 15457.178
+c0: 229729304484501245384
+c1: -33795594362342974
+c2: -3521672292115
+c3: 123331428
+c4: 3060
+Y0: -49667202044609185
+Y1: 113292700722911
+# MurphyE (Bf=4.194e+06,Bg=4.194e+06,area=2.097e+11) = 1.313e-05
+# f(x) = 3060*x^4+123331428*x^3-3521672292115*x^2-33795594362342974*x+229729304484501245384
+# g(x) = 113292700722911*x-49667202044609185
+
+[33;1mWarning[0m:Polynomial Selection (size optimized): Found more than one match for:
+n: 35295767190599515556457508590902102808424880879160273096932634590422763883779
+skew: 15457.178
+c0: 229729304484501245384
+c1: -33795594362342974
+c2: -3521672292115
+c3: 123331428
+c4: 3060
+Y0: -49667202044609185
+Y1: 113292700722911
+# MurphyE (Bf=4.194e+06,Bg=4.194e+06,area=2.097e+11) = 1.313e-05
+# f(x) = 3060*x^4+123331428*x^3-3521672292115*x^2-33795594362342974*x+229729304484501245384
+# g(x) = 113292700722911*x-49667202044609185
+
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best overall polynomial was 0-th in list after size optimization
+[32;1mInfo[0m:Polynomial Selection (root optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 26.19
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 25.91
+[32;1mInfo[0m:Generate Factor Base: Starting
+[32;1mInfo[0m:Generate Factor Base: Finished
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 0.11/0.0673189
+[32;1mInfo[0m:Generate Free Relations: Starting
+[32;1mInfo[0m:Generate Free Relations: Found 12175 free relations
+[32;1mInfo[0m:Generate Free Relations: Finished
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 5.14/2.81058
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 122540 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_100000-102000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_102000-104000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_104000-106000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_106000-108000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_108000-110000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_110000-112000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_112000-114000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_114000-116000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_116000-118000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_118000-120000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_100000-102000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_120000-122000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_102000-104000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_122000-124000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2555 relations in '/tmp/test255.upload/test255.100000-102000.te8a13j7.gz', total is now 2555/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_100000-102000 as ok (2.1% => ETA Unknown)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_104000-106000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_124000-126000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_106000-108000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_126000-128000 to database
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_108000-110000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_128000-130000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2513 relations in '/tmp/test255.upload/test255.102000-104000.a0kd2xk8.gz', total is now 5068/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_102000-104000 as ok (4.1% => ETA Mon Feb 14 19:54:37 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_110000-112000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_130000-132000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2900 relations in '/tmp/test255.upload/test255.104000-106000.0wajy0j2.gz', total is now 7968/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_104000-106000 as ok (6.5% => ETA Mon Feb 14 19:51:17 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_112000-114000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_132000-134000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2603 relations in '/tmp/test255.upload/test255.108000-110000.5ew1acxg.gz', total is now 10571/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_108000-110000 as ok (8.6% => ETA Mon Feb 14 19:50:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_114000-116000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_134000-136000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2494 relations in '/tmp/test255.upload/test255.106000-108000.vu4pu4lp.gz', total is now 13065/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_106000-108000 as ok (10.7% => ETA Mon Feb 14 19:49:22 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_116000-118000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_136000-138000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2404 relations in '/tmp/test255.upload/test255.110000-112000.z448w9x4.gz', total is now 15469/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_110000-112000 as ok (12.6% => ETA Mon Feb 14 19:49:28 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_118000-120000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_138000-140000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2293 relations in '/tmp/test255.upload/test255.112000-114000.qm345dub.gz', total is now 17762/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_112000-114000 as ok (14.5% => ETA Mon Feb 14 19:49:19 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_120000-122000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_140000-142000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2456 relations in '/tmp/test255.upload/test255.114000-116000.m2344_7k.gz', total is now 20218/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_114000-116000 as ok (16.5% => ETA Mon Feb 14 19:48:49 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_122000-124000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_142000-144000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2422 relations in '/tmp/test255.upload/test255.116000-118000.hzksb8pk.gz', total is now 22640/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_116000-118000 as ok (18.5% => ETA Mon Feb 14 19:48:57 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_124000-126000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_126000-128000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_144000-146000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_146000-148000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2528 relations in '/tmp/test255.upload/test255.118000-120000.asz_3tm1.gz', total is now 25168/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_118000-120000 as ok (20.5% => ETA Mon Feb 14 19:48:57 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2288 relations in '/tmp/test255.upload/test255.120000-122000.sqpuhzvd.gz', total is now 27456/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_120000-122000 as ok (22.4% => ETA Mon Feb 14 19:48:35 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_128000-130000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_148000-150000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2238 relations in '/tmp/test255.upload/test255.126000-128000.m3_q2992.gz', total is now 29694/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_126000-128000 as ok (24.2% => ETA Mon Feb 14 19:48:52 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_130000-132000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_150000-152000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2437 relations in '/tmp/test255.upload/test255.122000-124000.k7oj_9qw.gz', total is now 32131/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_122000-124000 as ok (26.2% => ETA Mon Feb 14 19:48:37 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_132000-134000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_152000-154000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2714 relations in '/tmp/test255.upload/test255.124000-126000.lv424t98.gz', total is now 34845/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_124000-126000 as ok (28.4% => ETA Mon Feb 14 19:48:37 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_134000-136000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_154000-156000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2479 relations in '/tmp/test255.upload/test255.130000-132000.ozv5ovlw.gz', total is now 37324/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_130000-132000 as ok (30.5% => ETA Mon Feb 14 19:48:39 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_136000-138000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_156000-158000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2281 relations in '/tmp/test255.upload/test255.128000-130000.1k0emrxy.gz', total is now 39605/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_128000-130000 as ok (32.3% => ETA Mon Feb 14 19:48:31 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_138000-140000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_158000-160000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2462 relations in '/tmp/test255.upload/test255.132000-134000.epeaqeze.gz', total is now 42067/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_132000-134000 as ok (34.3% => ETA Mon Feb 14 19:48:27 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_140000-142000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_142000-144000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_160000-162000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_162000-164000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2001 relations in '/tmp/test255.upload/test255.134000-136000.nou2b8nr.gz', total is now 44068/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_134000-136000 as ok (36.0% => ETA Mon Feb 14 19:48:37 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2416 relations in '/tmp/test255.upload/test255.136000-138000.f8oco29u.gz', total is now 46484/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_136000-138000 as ok (37.9% => ETA Mon Feb 14 19:48:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_144000-146000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_164000-166000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2498 relations in '/tmp/test255.upload/test255.138000-140000.uu73zrou.gz', total is now 48982/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_138000-140000 as ok (40.0% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_146000-148000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_166000-168000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2269 relations in '/tmp/test255.upload/test255.140000-142000.3no0f00w.gz', total is now 51251/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_140000-142000 as ok (41.8% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_148000-150000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_168000-170000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2151 relations in '/tmp/test255.upload/test255.142000-144000.6d6zonmc.gz', total is now 53402/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_142000-144000 as ok (43.6% => ETA Mon Feb 14 19:48:23 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_150000-152000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_170000-172000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1961 relations in '/tmp/test255.upload/test255.144000-146000.zbazyv1c.gz', total is now 55363/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_144000-146000 as ok (45.2% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_152000-154000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_172000-174000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1869 relations in '/tmp/test255.upload/test255.148000-150000.gbj8izw9.gz', total is now 57232/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_148000-150000 as ok (46.7% => ETA Mon Feb 14 19:48:24 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_154000-156000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_174000-176000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2213 relations in '/tmp/test255.upload/test255.146000-148000.7na1hnke.gz', total is now 59445/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_146000-148000 as ok (48.5% => ETA Mon Feb 14 19:48:24 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_156000-158000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_158000-160000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_176000-178000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_178000-180000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2367 relations in '/tmp/test255.upload/test255.152000-154000.b3q4isvc.gz', total is now 61812/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_152000-154000 as ok (50.4% => ETA Mon Feb 14 19:48:34 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2205 relations in '/tmp/test255.upload/test255.154000-156000.gb4gb_mr.gz', total is now 64017/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_154000-156000 as ok (52.2% => ETA Mon Feb 14 19:48:26 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_160000-162000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_180000-182000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2504 relations in '/tmp/test255.upload/test255.150000-152000.f8bgaztd.gz', total is now 66521/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_150000-152000 as ok (54.3% => ETA Mon Feb 14 19:48:20 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_162000-164000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_182000-184000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2243 relations in '/tmp/test255.upload/test255.156000-158000.fr9j97ch.gz', total is now 68764/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_156000-158000 as ok (56.1% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_164000-166000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_184000-186000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2147 relations in '/tmp/test255.upload/test255.158000-160000.r5hekulu.gz', total is now 70911/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_158000-160000 as ok (57.9% => ETA Mon Feb 14 19:48:24 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_166000-168000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_186000-188000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2213 relations in '/tmp/test255.upload/test255.160000-162000.pq3b_qyw.gz', total is now 73124/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_160000-162000 as ok (59.7% => ETA Mon Feb 14 19:48:23 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_168000-170000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_188000-190000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2062 relations in '/tmp/test255.upload/test255.162000-164000.2cxp1_i_.gz', total is now 75186/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_162000-164000 as ok (61.4% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_170000-172000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_172000-174000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_190000-192000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_192000-194000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2264 relations in '/tmp/test255.upload/test255.164000-166000.tw7p7vok.gz', total is now 77450/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_164000-166000 as ok (63.2% => ETA Mon Feb 14 19:48:27 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2117 relations in '/tmp/test255.upload/test255.166000-168000.8r4q3s6s.gz', total is now 79567/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_166000-168000 as ok (64.9% => ETA Mon Feb 14 19:48:21 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_174000-176000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_194000-196000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2123 relations in '/tmp/test255.upload/test255.168000-170000.gyla_73v.gz', total is now 81690/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_168000-170000 as ok (66.7% => ETA Mon Feb 14 19:48:28 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_176000-178000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_178000-180000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_196000-198000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_198000-200000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2260 relations in '/tmp/test255.upload/test255.170000-172000.nwon_n3b.gz', total is now 83950/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_170000-172000 as ok (68.5% => ETA Mon Feb 14 19:48:28 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2526 relations in '/tmp/test255.upload/test255.172000-174000.ow7nwy66.gz', total is now 86476/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_172000-174000 as ok (70.6% => ETA Mon Feb 14 19:48:22 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_180000-182000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_200000-202000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2035 relations in '/tmp/test255.upload/test255.174000-176000.edycuc40.gz', total is now 88511/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_174000-176000 as ok (72.2% => ETA Mon Feb 14 19:48:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_182000-184000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_202000-204000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2366 relations in '/tmp/test255.upload/test255.176000-178000.0wqp3xbm.gz', total is now 90877/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_176000-178000 as ok (74.2% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_184000-186000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_204000-206000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2260 relations in '/tmp/test255.upload/test255.178000-180000.eknuec5m.gz', total is now 93137/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_178000-180000 as ok (76.0% => ETA Mon Feb 14 19:48:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_186000-188000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_206000-208000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1984 relations in '/tmp/test255.upload/test255.180000-182000.53o018rd.gz', total is now 95121/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_180000-182000 as ok (77.6% => ETA Mon Feb 14 19:48:23 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_188000-190000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_208000-210000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2236 relations in '/tmp/test255.upload/test255.182000-184000.zswuxa_1.gz', total is now 97357/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_182000-184000 as ok (79.4% => ETA Mon Feb 14 19:48:27 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_190000-192000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_210000-212000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2511 relations in '/tmp/test255.upload/test255.184000-186000.p5foa8dd.gz', total is now 99868/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_184000-186000 as ok (81.5% => ETA Mon Feb 14 19:48:26 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_192000-194000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_212000-214000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2050 relations in '/tmp/test255.upload/test255.186000-188000.d9vdsa0x.gz', total is now 101918/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_186000-188000 as ok (83.2% => ETA Mon Feb 14 19:48:26 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1971 relations in '/tmp/test255.upload/test255.188000-190000.enn9hulm.gz', total is now 103889/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_188000-190000 as ok (84.8% => ETA Mon Feb 14 19:48:28 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_194000-196000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_196000-198000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_214000-216000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_216000-218000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1854 relations in '/tmp/test255.upload/test255.190000-192000.c7vcf0o8.gz', total is now 105743/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_190000-192000 as ok (86.3% => ETA Mon Feb 14 19:48:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_198000-200000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_218000-220000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1896 relations in '/tmp/test255.upload/test255.192000-194000.53cnlzvv.gz', total is now 107639/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_192000-194000 as ok (87.8% => ETA Mon Feb 14 19:48:24 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_200000-202000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_220000-222000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2129 relations in '/tmp/test255.upload/test255.194000-196000.gfzlitn9.gz', total is now 109768/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_194000-196000 as ok (89.6% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_202000-204000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_222000-224000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1719 relations in '/tmp/test255.upload/test255.198000-200000.1mkjsnsj.gz', total is now 111487/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_198000-200000 as ok (91.0% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_204000-206000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_224000-226000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2391 relations in '/tmp/test255.upload/test255.196000-198000.8rcofxjq.gz', total is now 113878/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_196000-198000 as ok (92.9% => ETA Mon Feb 14 19:48:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_206000-208000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_226000-228000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1769 relations in '/tmp/test255.upload/test255.200000-202000.0p6cskk4.gz', total is now 115647/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_200000-202000 as ok (94.4% => ETA Mon Feb 14 19:48:29 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_208000-210000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_228000-230000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1685 relations in '/tmp/test255.upload/test255.202000-204000.zrpgxomx.gz', total is now 117332/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_202000-204000 as ok (95.7% => ETA Mon Feb 14 19:48:27 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_210000-212000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_230000-232000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1899 relations in '/tmp/test255.upload/test255.204000-206000.b3zvxc1j.gz', total is now 119231/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_204000-206000 as ok (97.3% => ETA Mon Feb 14 19:48:26 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_212000-214000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_232000-234000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1836 relations in '/tmp/test255.upload/test255.206000-208000.zps_o2b_.gz', total is now 121067/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_206000-208000 as ok (98.8% => ETA Mon Feb 14 19:48:32 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_214000-216000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_234000-236000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2371 relations in '/tmp/test255.upload/test255.208000-210000.0swvkz0v.gz', total is now 123438/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_208000-210000 as ok (100.7% => ETA Mon Feb 14 19:48:30 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2032 relations in '/tmp/test255.upload/test255.210000-212000.93ni_hzs.gz', total is now 125470/122540
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_210000-212000 as ok (102.4% => ETA Mon Feb 14 19:48:26 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_216000-218000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_236000-238000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 122540 relations, now have 125470
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 125470
+[32;1mInfo[0m:Lattice Sieving: Average J: 974.779 for 9328 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 621.31s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 56 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 62515, 1: 62955
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.1/2.88576
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 2.5s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 59100 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 59466 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 125470 newly added relations 118566 were unique (ratio 0.944975)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 118566 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 1.74/3.8785
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 2.4s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 118566 unique and 12175 free relations, total 130741
+[33;1mWarning[0m:Command: Process with PID 94 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 4794 relations with 18377 primes remain with excess -13583
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 13583 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 132149 (13583 additional) output relations, estimate 139843 (14373 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 139843, currently have 125470. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 0.29/0.691181
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 139843 relation(s)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_218000-220000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_238000-240000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1879 relations in '/tmp/test255.upload/test255.212000-214000.qxxi0a7c.gz', total is now 127349/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_212000-214000 as ok (91.1% => ETA Mon Feb 14 19:49:05 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_220000-222000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_240000-242000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1879 relations in '/tmp/test255.upload/test255.214000-216000.ycaqwm8g.gz', total is now 129228/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_214000-216000 as ok (92.4% => ETA Mon Feb 14 19:49:03 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_222000-224000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_242000-244000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1924 relations in '/tmp/test255.upload/test255.216000-218000.0vlkvafx.gz', total is now 131152/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_216000-218000 as ok (93.8% => ETA Mon Feb 14 19:49:02 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2142 relations in '/tmp/test255.upload/test255.218000-220000.gs7wpf5m.gz', total is now 133294/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_218000-220000 as ok (95.3% => ETA Mon Feb 14 19:49:06 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_224000-226000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_226000-228000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_244000-246000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_246000-248000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1949 relations in '/tmp/test255.upload/test255.220000-222000.e6k4dfm4.gz', total is now 135243/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_220000-222000 as ok (96.7% => ETA Mon Feb 14 19:49:04 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_228000-230000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_248000-250000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1953 relations in '/tmp/test255.upload/test255.222000-224000.mzqt9der.gz', total is now 137196/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_222000-224000 as ok (98.1% => ETA Mon Feb 14 19:49:02 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_230000-232000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_250000-252000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1616 relations in '/tmp/test255.upload/test255.226000-228000.7pyfvhz0.gz', total is now 138812/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_226000-228000 as ok (99.3% => ETA Mon Feb 14 19:49:05 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_232000-234000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_252000-254000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1961 relations in '/tmp/test255.upload/test255.224000-226000.56qduhhi.gz', total is now 140773/139843
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_224000-226000 as ok (100.7% => ETA Mon Feb 14 19:49:06 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_234000-236000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_254000-256000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 139843 relations, now have 140773
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 140773
+[32;1mInfo[0m:Lattice Sieving: Average J: 974.417 for 10608 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 716.62s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 8 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 70181, 1: 70592
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.28/3.72341
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 2.7s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 65951 unique relations remain on slice 0
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_236000-238000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 66269 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 15303 newly added relations 13654 were unique (ratio 0.892243)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 132220 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 2.54/6.60956
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 3.5999999999999996s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 132220 unique and 12175 free relations, total 144395
+[33;1mWarning[0m:Command: Process with PID 258 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 11402 relations with 24488 primes remain with excess -13086
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 13086 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 145306 (13086 additional) output relations, estimate 155439 (14666 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 155439, currently have 140773. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 0.61/1.35605
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 155439 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_256000-258000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2205 relations in '/tmp/test255.upload/test255.228000-230000.4ky1sqml.gz', total is now 142978/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_228000-230000 as ok (92.0% => ETA Mon Feb 14 19:49:38 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1721 relations in '/tmp/test255.upload/test255.230000-232000.s7m5ccv6.gz', total is now 144699/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_230000-232000 as ok (93.1% => ETA Mon Feb 14 19:49:35 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_238000-240000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_258000-260000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1737 relations in '/tmp/test255.upload/test255.232000-234000.19emvxra.gz', total is now 146436/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_232000-234000 as ok (94.2% => ETA Mon Feb 14 19:49:35 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_240000-242000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_260000-262000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2305 relations in '/tmp/test255.upload/test255.234000-236000.balbo9ym.gz', total is now 148741/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_234000-236000 as ok (95.7% => ETA Mon Feb 14 19:49:35 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_242000-244000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_262000-264000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1663 relations in '/tmp/test255.upload/test255.236000-238000.j5mjgbqr.gz', total is now 150404/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_236000-238000 as ok (96.8% => ETA Mon Feb 14 19:49:32 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_244000-246000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_264000-266000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2062 relations in '/tmp/test255.upload/test255.238000-240000.y4x9ix9f.gz', total is now 152466/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_238000-240000 as ok (98.1% => ETA Mon Feb 14 19:49:37 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_246000-248000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_248000-250000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_266000-268000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_268000-270000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2047 relations in '/tmp/test255.upload/test255.240000-242000.uvevy_uq.gz', total is now 154513/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_240000-242000 as ok (99.4% => ETA Mon Feb 14 19:49:37 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1929 relations in '/tmp/test255.upload/test255.242000-244000.5aslo10f.gz', total is now 156442/155439
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_242000-244000 as ok (100.6% => ETA Mon Feb 14 19:49:33 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_250000-252000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_270000-272000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 155439 relations, now have 156442
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 156442
+[32;1mInfo[0m:Lattice Sieving: Average J: 973.901 for 11937 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 808.6s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 8 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 78063, 1: 78379
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.46/4.57489
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 3.0s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 72968 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 73201 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 15669 newly added relations 13949 were unique (ratio 0.890229)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 146169 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 3.39/9.16058
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 4.499999999999999s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 146169 unique and 12175 free relations, total 158344
+[33;1mWarning[0m:Command: Process with PID 378 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 19085 relations with 31149 primes remain with excess -12064
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 12064 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 158233 (12064 additional) output relations, estimate 169993 (13551 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 169993, currently have 156442. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 0.98/2.63996
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 169993 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Found 1944 relations in '/tmp/test255.upload/test255.244000-246000.9kf94r2q.gz', total is now 158386/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_244000-246000 as ok (93.2% => ETA Mon Feb 14 19:50:08 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_252000-254000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_254000-256000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_272000-274000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_274000-276000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1900 relations in '/tmp/test255.upload/test255.246000-248000.r071a6pf.gz', total is now 160286/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_246000-248000 as ok (94.3% => ETA Mon Feb 14 19:50:07 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 2225 relations in '/tmp/test255.upload/test255.248000-250000.cuttseqp.gz', total is now 162511/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_248000-250000 as ok (95.6% => ETA Mon Feb 14 19:50:03 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_256000-258000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_276000-278000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1884 relations in '/tmp/test255.upload/test255.250000-252000.qzd62bsi.gz', total is now 164395/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_250000-252000 as ok (96.7% => ETA Mon Feb 14 19:50:06 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_258000-260000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_278000-280000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1810 relations in '/tmp/test255.upload/test255.254000-256000.pf29gj17.gz', total is now 166205/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_254000-256000 as ok (97.8% => ETA Mon Feb 14 19:50:04 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_260000-262000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_280000-282000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1676 relations in '/tmp/test255.upload/test255.252000-254000.05vgpk5e.gz', total is now 167881/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_252000-254000 as ok (98.8% => ETA Mon Feb 14 19:50:05 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_262000-264000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_282000-284000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1675 relations in '/tmp/test255.upload/test255.258000-260000.avu11qm1.gz', total is now 169556/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_258000-260000 as ok (99.7% => ETA Mon Feb 14 19:50:05 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_264000-266000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_284000-286000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1623 relations in '/tmp/test255.upload/test255.256000-258000.ngt3nadg.gz', total is now 171179/169993
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_256000-258000 as ok (100.7% => ETA Mon Feb 14 19:50:04 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_266000-268000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_286000-288000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 169993 relations, now have 171179
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 171179
+[32;1mInfo[0m:Lattice Sieving: Average J: 972.154 for 13232 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 897.13s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 8 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 85425, 1: 85754
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.64/5.28968
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 3.2s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_268000-270000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 79404 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 79690 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 14737 newly added relations 12925 were unique (ratio 0.877044)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 159094 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 4.3/12.4869
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 5.8999999999999995s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 159094 unique and 12175 free relations, total 171269
+[33;1mWarning[0m:Command: Process with PID 484 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 26434 relations with 37129 primes remain with excess -10695
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 10695 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 169789 (10695 additional) output relations, estimate 183373 (12194 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 183373, currently have 171179. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 1.4/3.58811
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 183373 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_288000-290000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1568 relations in '/tmp/test255.upload/test255.260000-262000._zfny9dw.gz', total is now 172747/183373
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_260000-262000 as ok (94.2% => ETA Mon Feb 14 19:50:38 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1650 relations in '/tmp/test255.upload/test255.262000-264000.yq5gffgu.gz', total is now 174397/183373
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_262000-264000 as ok (95.1% => ETA Mon Feb 14 19:50:35 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_270000-272000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_290000-292000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1846 relations in '/tmp/test255.upload/test255.264000-266000.0ga8lezt.gz', total is now 176243/183373
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_264000-266000 as ok (96.1% => ETA Mon Feb 14 19:50:33 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_272000-274000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_292000-294000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 2013 relations in '/tmp/test255.upload/test255.266000-268000.rp7kh9td.gz', total is now 178256/183373
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_266000-268000 as ok (97.2% => ETA Mon Feb 14 19:50:35 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_274000-276000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_294000-296000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1786 relations in '/tmp/test255.upload/test255.268000-270000.y5n6tm__.gz', total is now 180042/183373
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_268000-270000 as ok (98.2% => ETA Mon Feb 14 19:50:35 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_276000-278000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_296000-298000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1934 relations in '/tmp/test255.upload/test255.270000-272000.4ivb8t4p.gz', total is now 181976/183373
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_270000-272000 as ok (99.2% => ETA Mon Feb 14 19:50:34 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_278000-280000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_298000-300000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1729 relations in '/tmp/test255.upload/test255.272000-274000.d4yz1ji8.gz', total is now 183705/183373
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_272000-274000 as ok (100.2% => ETA Mon Feb 14 19:50:37 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_280000-282000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_300000-302000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 183373 relations, now have 183705
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 183705
+[32;1mInfo[0m:Lattice Sieving: Average J: 971.496 for 14377 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 982.63s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 7 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 91744, 1: 91961
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.81/5.99021
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 3.4000000000000004s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 84960 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 85093 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 12526 newly added relations 10959 were unique (ratio 0.874900)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 170053 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 5.18/15.5006
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 7.0s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 170053 unique and 12175 free relations, total 182228
+[33;1mWarning[0m:Command: Process with PID 594 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 32717 relations with 41948 primes remain with excess -9231
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 10000 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 180053 (10000 additional) output relations, estimate 195134 (11429 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 195134, currently have 183705. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 1.83/4.65447
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 195134 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Found 1597 relations in '/tmp/test255.upload/test255.274000-276000.3po07faj.gz', total is now 185302/195134
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_274000-276000 as ok (95.0% => ETA Mon Feb 14 19:51:04 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_282000-284000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_302000-304000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1851 relations in '/tmp/test255.upload/test255.276000-278000.3q10pupg.gz', total is now 187153/195134
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_276000-278000 as ok (95.9% => ETA Mon Feb 14 19:51:01 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_284000-286000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_304000-306000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1648 relations in '/tmp/test255.upload/test255.278000-280000.b2gcpfs0.gz', total is now 188801/195134
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_278000-280000 as ok (96.8% => ETA Mon Feb 14 19:51:01 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_286000-288000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_306000-308000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1735 relations in '/tmp/test255.upload/test255.280000-282000.ui25licj.gz', total is now 190536/195134
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_280000-282000 as ok (97.6% => ETA Mon Feb 14 19:51:01 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_288000-290000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_308000-310000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1491 relations in '/tmp/test255.upload/test255.282000-284000.p2vlr77c.gz', total is now 192027/195134
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_282000-284000 as ok (98.4% => ETA Mon Feb 14 19:51:01 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_290000-292000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_310000-312000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1396 relations in '/tmp/test255.upload/test255.286000-288000.k112wvae.gz', total is now 193423/195134
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_286000-288000 as ok (99.1% => ETA Mon Feb 14 19:51:02 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_292000-294000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_312000-314000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1773 relations in '/tmp/test255.upload/test255.284000-286000.qqs2aq70.gz', total is now 195196/195134
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_284000-286000 as ok (100.0% => ETA Mon Feb 14 19:51:01 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_294000-296000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_314000-316000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 195134 relations, now have 195196
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 195196
+[32;1mInfo[0m:Lattice Sieving: Average J: 971.137 for 15434 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 1059.24s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 7 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 97508, 1: 97688
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 1.97/6.65188
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 3.5000000000000004s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_296000-298000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 89946 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 90090 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 11491 newly added relations 9983 were unique (ratio 0.868767)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 180036 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 6.04/18.0374
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 7.8s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 180036 unique and 12175 free relations, total 192211
+[33;1mWarning[0m:Command: Process with PID 698 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 38440 relations with 46159 primes remain with excess -7719
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 10000 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 190036 (10000 additional) output relations, estimate 206706 (11510 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 206706, currently have 195196. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 2.27/5.51179
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 206706 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_316000-318000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1518 relations in '/tmp/test255.upload/test255.288000-290000.q6bzuz5h.gz', total is now 196714/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_288000-290000 as ok (95.2% => ETA Mon Feb 14 19:51:31 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1709 relations in '/tmp/test255.upload/test255.292000-294000.v2vkaqlq.gz', total is now 198423/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_292000-294000 as ok (96.0% => ETA Mon Feb 14 19:51:28 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_298000-300000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_318000-320000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1743 relations in '/tmp/test255.upload/test255.290000-292000._9s9mtws.gz', total is now 200166/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_290000-292000 as ok (96.8% => ETA Mon Feb 14 19:51:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_300000-302000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_320000-322000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1792 relations in '/tmp/test255.upload/test255.294000-296000.qjim9fvv.gz', total is now 201958/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_294000-296000 as ok (97.7% => ETA Mon Feb 14 19:51:28 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_302000-304000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_322000-324000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1539 relations in '/tmp/test255.upload/test255.296000-298000.golo560y.gz', total is now 203497/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_296000-298000 as ok (98.4% => ETA Mon Feb 14 19:51:27 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_304000-306000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_324000-326000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1897 relations in '/tmp/test255.upload/test255.298000-300000.rc0hdcdw.gz', total is now 205394/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_298000-300000 as ok (99.4% => ETA Mon Feb 14 19:51:30 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_306000-308000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_308000-310000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_326000-328000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_328000-330000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1774 relations in '/tmp/test255.upload/test255.300000-302000.bn0eifnm.gz', total is now 207168/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_300000-302000 as ok (100.2% => ETA Mon Feb 14 19:51:29 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1593 relations in '/tmp/test255.upload/test255.302000-304000.4gfu8imk.gz', total is now 208761/206706
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_302000-304000 as ok (101.0% => ETA Mon Feb 14 19:51:26 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_310000-312000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_330000-332000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 206706 relations, now have 208761
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 208761
+[32;1mInfo[0m:Lattice Sieving: Average J: 970.04 for 16697 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 1148.64s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 8 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 104307, 1: 104454
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 2.15/7.3491
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 3.7000000000000006s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 95842 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 95937 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 13565 newly added relations 11743 were unique (ratio 0.865684)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 191779 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 6.95/20.5159
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 8.9s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 191779 unique and 12175 free relations, total 203954
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_312000-314000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_314000-316000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[33;1mWarning[0m:Command: Process with PID 804 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 45439 relations with 51196 primes remain with excess -5757
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 10000 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 201779 (10000 additional) output relations, estimate 220312 (11551 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 220312, currently have 208761. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 2.75/6.8796
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 220312 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_332000-334000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_334000-336000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1677 relations in '/tmp/test255.upload/test255.304000-306000.hgfnxz6w.gz', total is now 210438/220312
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_304000-306000 as ok (95.5% => ETA Mon Feb 14 19:52:02 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1749 relations in '/tmp/test255.upload/test255.306000-308000.loccsklg.gz', total is now 212187/220312
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_306000-308000 as ok (96.3% => ETA Mon Feb 14 19:51:58 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1721 relations in '/tmp/test255.upload/test255.308000-310000.gvvz4gam.gz', total is now 213908/220312
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_308000-310000 as ok (97.1% => ETA Mon Feb 14 19:51:55 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_316000-318000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_336000-338000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1523 relations in '/tmp/test255.upload/test255.310000-312000.78ikj29a.gz', total is now 215431/220312
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_310000-312000 as ok (97.8% => ETA Mon Feb 14 19:51:59 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_318000-320000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_338000-340000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1756 relations in '/tmp/test255.upload/test255.314000-316000.qtto15wx.gz', total is now 217187/220312
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_314000-316000 as ok (98.6% => ETA Mon Feb 14 19:51:59 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_320000-322000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_340000-342000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1710 relations in '/tmp/test255.upload/test255.312000-314000.2kstfs_g.gz', total is now 218897/220312
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_312000-314000 as ok (99.4% => ETA Mon Feb 14 19:51:56 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_322000-324000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_342000-344000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1653 relations in '/tmp/test255.upload/test255.316000-318000.dzib12hw.gz', total is now 220550/220312
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_316000-318000 as ok (100.1% => ETA Mon Feb 14 19:52:00 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_324000-326000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_344000-346000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 220312 relations, now have 220550
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 220550
+[32;1mInfo[0m:Lattice Sieving: Average J: 969.844 for 17807 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 1228.21s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 7 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 110210, 1: 110340
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 2.3/8.16606
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 3.900000000000001s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 100857 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 100970 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 11789 newly added relations 10048 were unique (ratio 0.852320)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 201827 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 7.88/23.8162
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 10.5s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 201827 unique and 12175 free relations, total 214002
+[33;1mWarning[0m:Command: Process with PID 914 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 51932 relations with 55712 primes remain with excess -3780
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 10000 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 211827 (10000 additional) output relations, estimate 232282 (11732 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 232282, currently have 220550. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 3.24/7.47565
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 232282 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Found 1569 relations in '/tmp/test255.upload/test255.318000-320000.723rhu9s.gz', total is now 222119/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_318000-320000 as ok (95.6% => ETA Mon Feb 14 19:52:27 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_326000-328000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_346000-348000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1710 relations in '/tmp/test255.upload/test255.320000-322000.j5uvs8h7.gz', total is now 223829/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_320000-322000 as ok (96.4% => ETA Mon Feb 14 19:52:24 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_328000-330000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_348000-350000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1483 relations in '/tmp/test255.upload/test255.322000-324000.vsx0j55f.gz', total is now 225312/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_322000-324000 as ok (97.0% => ETA Mon Feb 14 19:52:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_330000-332000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_350000-352000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1928 relations in '/tmp/test255.upload/test255.324000-326000.innrnimb.gz', total is now 227240/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_324000-326000 as ok (97.8% => ETA Mon Feb 14 19:52:26 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_332000-334000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_352000-354000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1480 relations in '/tmp/test255.upload/test255.326000-328000.bkaoazfs.gz', total is now 228720/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_326000-328000 as ok (98.5% => ETA Mon Feb 14 19:52:24 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_334000-336000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_354000-356000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1824 relations in '/tmp/test255.upload/test255.328000-330000.0js_nn8c.gz', total is now 230544/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_328000-330000 as ok (99.3% => ETA Mon Feb 14 19:52:28 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_336000-338000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_356000-358000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1608 relations in '/tmp/test255.upload/test255.332000-334000.c_femvn3.gz', total is now 232152/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_332000-334000 as ok (99.9% => ETA Mon Feb 14 19:52:26 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_338000-340000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_358000-360000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1677 relations in '/tmp/test255.upload/test255.330000-332000.arsdas4b.gz', total is now 233829/232282
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_330000-332000 as ok (100.7% => ETA Mon Feb 14 19:52:25 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_340000-342000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_360000-362000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 232282 relations, now have 233829
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 233829
+[32;1mInfo[0m:Lattice Sieving: Average J: 968.59 for 19097 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 1317.87s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 8 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 116811, 1: 117018
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 2.46/8.75305
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 4.1000000000000005s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 106452 unique relations remain on slice 0
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_342000-344000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 106592 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 13279 newly added relations 11217 were unique (ratio 0.844717)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 213044 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 8.85/26.9765
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 11.9s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 213044 unique and 12175 free relations, total 225219
+[33;1mWarning[0m:Command: Process with PID 1030 finished with return code 2
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 59319 relations with 60703 primes remain with excess -1384
+[32;1mInfo[0m:Filtering - Singleton removal: Not enough relations
+[32;1mInfo[0m:Filtering - Singleton removal: Requesting 10000 additional relations
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Got request for 223044 (10000 additional) output relations, estimate 245667 (11838 additional) needed in input
+[32;1mInfo[0m:Lattice Sieving: New goal for number of relations is 245667, currently have 233829. Need to sieve more
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 3.76/8.88507
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 245667 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_362000-364000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1417 relations in '/tmp/test255.upload/test255.334000-336000.4mwe6_3j.gz', total is now 235246/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_334000-336000 as ok (95.8% => ETA Mon Feb 14 19:53:00 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1805 relations in '/tmp/test255.upload/test255.336000-338000.d9lv0frs.gz', total is now 237051/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_336000-338000 as ok (96.5% => ETA Mon Feb 14 19:52:57 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_344000-346000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_364000-366000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1420 relations in '/tmp/test255.upload/test255.338000-340000._tnq8e0x.gz', total is now 238471/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_338000-340000 as ok (97.1% => ETA Mon Feb 14 19:52:55 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_346000-348000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_348000-350000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_366000-368000 to database
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_368000-370000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1709 relations in '/tmp/test255.upload/test255.340000-342000._3ig9nfb.gz', total is now 240180/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_340000-342000 as ok (97.8% => ETA Mon Feb 14 19:52:59 2022)
+[32;1mInfo[0m:Lattice Sieving: Found 1720 relations in '/tmp/test255.upload/test255.342000-344000.evxhgqal.gz', total is now 241900/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_342000-344000 as ok (98.5% => ETA Mon Feb 14 19:52:55 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_350000-352000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_370000-372000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1743 relations in '/tmp/test255.upload/test255.344000-346000.0qnp86r5.gz', total is now 243643/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_344000-346000 as ok (99.2% => ETA Mon Feb 14 19:52:57 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.20 Sending workunit test255_sieving_352000-354000 to client cadoclient-7989f6d464-w4s8q.549611d6
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_372000-374000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1572 relations in '/tmp/test255.upload/test255.348000-350000.wuoo50_r.gz', total is now 245215/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_348000-350000 as ok (99.8% => ETA Mon Feb 14 19:52:59 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.21 Sending workunit test255_sieving_354000-356000 to client cadoclient-7989f6d464-lscg2.104953dd
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_374000-376000 to database
+[32;1mInfo[0m:Lattice Sieving: Found 1731 relations in '/tmp/test255.upload/test255.346000-348000.ngg12tq8.gz', total is now 246946/245667
+[32;1mInfo[0m:Lattice Sieving: Marking workunit test255_sieving_346000-348000 as ok (100.5% => ETA Mon Feb 14 19:52:56 2022)
+[32;1mInfo[0m:HTTP server: 10.96.0.19 Sending workunit test255_sieving_356000-358000 to client cadoclient-7989f6d464-nqrsc.4114ac11
+[32;1mInfo[0m:Lattice Sieving: Adding workunit test255_sieving_376000-378000 to database
+[32;1mInfo[0m:Lattice Sieving: Reached target of 245667 relations, now have 246946
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 246946
+[32;1mInfo[0m:Lattice Sieving: Average J: 967.576 for 20388 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 1407.71s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Splitting 8 new files
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 123351, 1: 123595
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 2.62/9.32404
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 4.300000000000001s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 112007 unique relations remain on slice 0
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 112132 unique relations remain on slice 1
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Of 13117 newly added relations 11095 were unique (ratio 0.845849)
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 224139 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 9.81/29.6785
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 13.0s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Reading 224139 unique and 12175 free relations, total 236314
+[32;1mInfo[0m:Filtering - Singleton removal: After purge, 60732 relations with 60572 primes remain with weight 1050421 and excess 160
+[32;1mInfo[0m:Filtering - Singleton removal: Have enough relations
+[32;1mInfo[0m:HTTP server: Got notification to stop serving Workunits
+[32;1mInfo[0m:Lattice Sieving: Cancelling remaining workunits
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 5.21/12.4186
+[32;1mInfo[0m:Filtering - Merging: Starting
+[33;1mWarning[0m:HTTP server: 10.96.0.20 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.96.0.21 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.96.0.20 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.96.0.21 code 410, message Distributed computation finished
+[33;1mWarning[0m:HTTP server: 10.96.0.19 code 410, message Distributed computation finished
+[32;1mInfo[0m:Filtering - Merging: Merged matrix has 14209 rows and total weight 2417613 (170.1 entries per row on average)
+[33;1mWarning[0m:HTTP server: 10.96.0.19 code 410, message Distributed computation finished
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 5.54/5.54184
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 0.74/0.950634
+[32;1mInfo[0m:Linear Algebra: Starting
+[32;1mInfo[0m:Linear Algebra: krylov: N=64 ; ETA (N=512): Mon Feb 14 19:53:20 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=128 ; ETA (N=512): Mon Feb 14 19:53:19 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=192 ; ETA (N=512): Mon Feb 14 19:53:19 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=256 ; ETA (N=512): Mon Feb 14 19:53:19 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=320 ; ETA (N=512): Mon Feb 14 19:53:20 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=384 ; ETA (N=512): Mon Feb 14 19:53:20 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=448 ; ETA (N=512): Mon Feb 14 19:53:20 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=512 ; ETA (N=512): Mon Feb 14 19:53:20 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: Mon Feb 14 19:53:21 2022
+[32;1mInfo[0m:Linear Algebra: mksol: N=64 ; ETA (N=256): Mon Feb 14 19:53:21 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=128 ; ETA (N=256): Mon Feb 14 19:53:21 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=192 ; ETA (N=256): Mon Feb 14 19:53:22 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=220 ; ETA (N=256): Mon Feb 14 19:53:22 2022 [0.003 s/iter]
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 6.12/4.5
+[32;1mInfo[0m:Linear Algebra: Aggregate statistics:
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 2.46, WCT time 1.85, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (512 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 1.05, WCT time 0.55
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 1.39,  WCT time 1.22, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (256 iterations)
+[32;1mInfo[0m:Quadratic Characters: Starting
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 0.81/0.499541
+[32;1mInfo[0m:Square Root: Starting
+[32;1mInfo[0m:Square Root: Creating file of (a,b) values
+[32;1mInfo[0m:Square Root: finished
+[32;1mInfo[0m:Square Root: Factors: 162077962068208303212527711943199992517 217770304736098375794811332475573384487
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 3.1/1.84907
+[32;1mInfo[0m:Polynomial Selection (size optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (size optimized): potential collisions: 1994.68
+[32;1mInfo[0m:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 2839/26.000/31.676/37.900/2.297
+[32;1mInfo[0m:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 2272/24.650/30.769/37.230/2.437
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 35.01
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 0.81/0.499541
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 3.1/1.84907
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 9.81/29.6785
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 13.0s
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 6.12/4.5
+[32;1mInfo[0m:Linear Algebra: Aggregate statistics:
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 2.46, WCT time 1.85, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (512 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 1.05, WCT time 0.55
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 1.39,  WCT time 1.22, iteration CPU time 0, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (256 iterations)
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 0.11/0.0673189
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 5.21/12.4186
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 246946
+[32;1mInfo[0m:Lattice Sieving: Average J: 967.576 for 20388 special-q, max bucket fill -bkmult 1.0,1s:1.325970
+[32;1mInfo[0m:Lattice Sieving: Total time: 1407.71s
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 5.14/2.81058
+[32;1mInfo[0m:Polynomial Selection (root optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 26.19
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 25.91
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 2.62/9.32404
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 4.300000000000001s
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 5.54/5.54184
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 0.74/0.950634
+[32;1mInfo[0m:HTTP server: Shutting down HTTP server
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Total cpu/elapsed time for entire factorization: 890.34/553.667
+162077962068208303212527711943199992517 217770304736098375794811332475573384487

@@ -1,0 +1,486 @@
+# gcp cluster with 1 e2-standard-2 node param2 (346 bits) -- client 1 log
+INFO:root:Starting client cadoclient-7989f6d464-bghk7.a661334
+INFO:root:Python version is 3.8.10
+INFO:root:Using work-around <class '__main__.Version3FixedBytesGenerator'> for buggy BytesGenerator
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133481564735 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a66133481564735
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/polyselect to download/polyselect567554036 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/polyselect) -> download/polyselect567554036
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:Setting executable flag for download/polyselect
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.4000-8000 does not exist
+INFO:root:Running download/polyselect -P 18000 -N 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493 -degree 5 -v -t 2 -admin 4000 -admax 8000 -incr 60 -nq 3125
+INFO:root:[Fri Feb 18 18:28:41 2022] Subprocess has PID 24
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.4000-8000 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_polyselect1_4000-8000  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_polyselect1_4000-8000 succeeded.
+INFO:root:Cleaning up for workunit test346_polyselect1_4000-8000
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.4000-8000
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334816437152 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334816437152
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/polyselect already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.16000-20000 does not exist
+INFO:root:Running download/polyselect -P 18000 -N 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493 -degree 5 -v -t 2 -admin 16000 -admax 20000 -incr 60 -nq 3125
+INFO:root:[Fri Feb 18 18:30:51 2022] Subprocess has PID 26
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.16000-20000 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_polyselect1_16000-20000  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_polyselect1_16000-20000 succeeded.
+INFO:root:Cleaning up for workunit test346_polyselect1_16000-20000
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.16000-20000
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334683606869 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334683606869
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/polyselect already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.28000-32000 does not exist
+INFO:root:Running download/polyselect -P 18000 -N 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493 -degree 5 -v -t 2 -admin 28000 -admax 32000 -incr 60 -nq 3125
+INFO:root:[Fri Feb 18 18:33:17 2022] Subprocess has PID 28
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.28000-32000 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_polyselect1_28000-32000  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_polyselect1_28000-32000 succeeded.
+INFO:root:Cleaning up for workunit test346_polyselect1_28000-32000
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect1.28000-32000
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 10.0 seconds)
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 20.0 seconds)
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 30.0 seconds)
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 40.0 seconds)
+ERROR:root:Going to next backup server: http://server-service:8012
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 10.0 seconds)
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 20.0 seconds)
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 30.0 seconds)
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 40.0 seconds)
+ERROR:root:Going to next backup server: http://server-service:8012
+INFO:root:spin=2 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying
+INFO:root:spin=2 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 10.0 seconds)
+INFO:root:spin=2 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133492053252 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a66133492053252
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:Opened URL http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 after 20.0 seconds wait
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/test346.polyselect2.raw_6 to download/test346.polyselect2.raw_6854362347 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/test346.polyselect2.raw_6) -> download/test346.polyselect2.raw_6854362347
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/polyselect_ropt to download/polyselect_ropt804044054 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/polyselect_ropt) -> download/polyselect_ropt804044054
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:Setting executable flag for download/polyselect_ropt
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_6 does not exist
+INFO:root:Running download/polyselect_ropt -v -t 2 -inputpolys download/test346.polyselect2.raw_6 -ropteffort 1.4 -area 2516582400000.0 -Bf 67108864.0 -Bg 33554432.0
+INFO:root:[Fri Feb 18 18:37:19 2022] Subprocess has PID 30
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_6 to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_polyselect2_6-7  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_polyselect2_6-7 succeeded.
+INFO:root:Cleaning up for workunit test346_polyselect2_6-7
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_6
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334909002141 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334909002141
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/test346.polyselect2.raw_30 to download/test346.polyselect2.raw_30414441932 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/test346.polyselect2.raw_30) -> download/test346.polyselect2.raw_30414441932
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/polyselect_ropt already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_30 does not exist
+INFO:root:Running download/polyselect_ropt -v -t 2 -inputpolys download/test346.polyselect2.raw_30 -ropteffort 1.4 -area 2516582400000.0 -Bf 67108864.0 -Bg 33554432.0
+INFO:root:[Fri Feb 18 18:38:18 2022] Subprocess has PID 32
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_30 to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_polyselect2_30-31  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_polyselect2_30-31 succeeded.
+INFO:root:Cleaning up for workunit test346_polyselect2_30-31
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_30
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334220242604 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334220242604
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/test346.polyselect2.raw_42 to download/test346.polyselect2.raw_42141664819 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/test346.polyselect2.raw_42) -> download/test346.polyselect2.raw_42141664819
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/polyselect_ropt already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_42 does not exist
+INFO:root:Running download/polyselect_ropt -v -t 2 -inputpolys download/test346.polyselect2.raw_42 -ropteffort 1.4 -area 2516582400000.0 -Bf 67108864.0 -Bg 33554432.0
+INFO:root:[Fri Feb 18 18:38:52 2022] Subprocess has PID 34
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_42 to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_polyselect2_42-43  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_polyselect2_42-43 succeeded.
+INFO:root:Cleaning up for workunit test346_polyselect2_42-43
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.polyselect2.opt_42
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 10.0 seconds)
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 20.0 seconds)
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 30.0 seconds)
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 40.0 seconds)
+ERROR:root:Going to next backup server: http://server-service:8012
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+ERROR:root:Download failed, URL error: HTTP Error 404: No work available
+ERROR:root:Waiting 10.0 seconds before retrying (I have been waiting for 10.0 seconds)
+INFO:root:spin=1 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334480408941 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334480408941
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:Opened URL http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 after 20.0 seconds wait
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/test346.roots1.gz to download/test346.roots1.gz1045261043 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/test346.roots1.gz) -> download/test346.roots1.gz1045261043
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/test346.poly to download/test346.poly556572248 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/test346.poly) -> download/test346.poly556572248
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:spin=0 is_wu=False blog=0
+INFO:root:Downloading http://server-service:8012/las to download/las426632110 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/las) -> download/las426632110
+INFO:root:fd = 5
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:Setting executable flag for download/las
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.320000-330000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 320000 -I 12 -q1 330000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.320000-330000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 18:40:15 2022] Subprocess has PID 36
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.320000-330000.gz to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_sieving_320000-330000  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_sieving_320000-330000 succeeded.
+INFO:root:Cleaning up for workunit test346_sieving_320000-330000
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.320000-330000.gz
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334429144883 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334429144883
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/test346.roots1.gz already exists, not downloading
+INFO:root:download/test346.poly already exists, not downloading
+INFO:root:download/las already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.350000-360000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 350000 -I 12 -q1 360000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.350000-360000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 18:47:08 2022] Subprocess has PID 46
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.350000-360000.gz to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_sieving_350000-360000  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_sieving_350000-360000 succeeded.
+INFO:root:Cleaning up for workunit test346_sieving_350000-360000
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.350000-360000.gz
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334824717027 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334824717027
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/test346.roots1.gz already exists, not downloading
+INFO:root:download/test346.poly already exists, not downloading
+INFO:root:download/las already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.380000-390000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 380000 -I 12 -q1 390000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.380000-390000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 18:54:18 2022] Subprocess has PID 56
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.380000-390000.gz to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_sieving_380000-390000  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_sieving_380000-390000 succeeded.
+INFO:root:Cleaning up for workunit test346_sieving_380000-390000
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.380000-390000.gz
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334581568411 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334581568411
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/test346.roots1.gz already exists, not downloading
+INFO:root:download/test346.poly already exists, not downloading
+INFO:root:download/las already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.410000-420000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 410000 -I 12 -q1 420000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.410000-420000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 19:01:16 2022] Subprocess has PID 66
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.410000-420000.gz to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_sieving_410000-420000  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_sieving_410000-420000 succeeded.
+INFO:root:Cleaning up for workunit test346_sieving_410000-420000
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.410000-420000.gz
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334121829625 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334121829625
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/test346.roots1.gz already exists, not downloading
+INFO:root:download/test346.poly already exists, not downloading
+INFO:root:download/las already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.310000-320000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 310000 -I 12 -q1 320000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.310000-320000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 19:07:39 2022] Subprocess has PID 76
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.310000-320000.gz to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_sieving_310000-320000#2  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_sieving_310000-320000#2 succeeded.
+INFO:root:Cleaning up for workunit test346_sieving_310000-320000#2
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.310000-320000.gz
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334353536818 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334353536818
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/test346.roots1.gz already exists, not downloading
+INFO:root:download/test346.poly already exists, not downloading
+INFO:root:download/las already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.340000-350000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 340000 -I 12 -q1 350000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.340000-350000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 19:14:14 2022] Subprocess has PID 86
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.340000-350000.gz to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_sieving_340000-350000#2  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_sieving_340000-350000#2 succeeded.
+INFO:root:Cleaning up for workunit test346_sieving_340000-350000#2
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.340000-350000.gz
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a66133432504376 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a66133432504376
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/test346.roots1.gz already exists, not downloading
+INFO:root:download/test346.poly already exists, not downloading
+INFO:root:download/las already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.370000-380000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 370000 -I 12 -q1 380000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.370000-380000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 19:20:36 2022] Subprocess has PID 96
+INFO:root:Attaching file cadoclient-7989f6d464-bghk7.a661334.work/test346.370000-380000.gz to upload
+INFO:root:Attaching stderr for command 0 to upload
+INFO:root:Uploading results: backlog has 1 entries
+INFO:root:	test346_sieving_370000-380000#2  -->  http://server-service:8012
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:Upload of test346_sieving_370000-380000#2 succeeded.
+INFO:root:Cleaning up for workunit test346_sieving_370000-380000#2
+INFO:root:Removing result file cadoclient-7989f6d464-bghk7.a661334.work/test346.370000-380000.gz
+INFO:root:spin=0 is_wu=True blog=0
+INFO:root:Downloading http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334 to download/WU.cadoclient-7989f6d464-bghk7.a661334304191228 (cafile = None)
+INFO:root:_urlopen_maybe_https
+INFO:root:_urlopen_maybe_https returns
+INFO:root:_native_get_file(http://server-service:8012/cgi-bin/getwu?clientid=cadoclient-7989f6d464-bghk7.a661334) -> download/WU.cadoclient-7989f6d464-bghk7.a661334304191228
+INFO:root:fd = 4
+INFO:root:lock acquired
+INFO:root:copy done
+INFO:root:lock release
+INFO:root:download/test346.roots1.gz already exists, not downloading
+INFO:root:download/test346.poly already exists, not downloading
+INFO:root:download/las already exists, not downloading
+INFO:root:Result file cadoclient-7989f6d464-bghk7.a661334.work/test346.400000-410000.gz does not exist
+INFO:root:Running download/las -poly download/test346.poly -q0 400000 -I 12 -q1 410000 -lim0 1000000 -lim1 1600000 -lpb0 25 -lpb1 26 -mfb0 50 -mfb1 52 -ncurves0 13 -ncurves1 16 -v -fb1 download/test346.roots1.gz -out cadoclient-7989f6d464-bghk7.a661334.work/test346.400000-410000.gz -t 2 -stats-stderr
+INFO:root:[Fri Feb 18 19:26:56 2022] Subprocess has PID 106
