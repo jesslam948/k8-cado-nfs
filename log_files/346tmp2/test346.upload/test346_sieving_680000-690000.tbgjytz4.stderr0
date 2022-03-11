@@ -1,0 +1,9 @@
+# redoing q=680707, rho=505740 because 1s buckets are full
+# Fullest level-1s bucket #108, wrote 27900/27840
+# Average J=1878 for 716 special-q's, max bucket fill -bkmult 1,1s:1.05226
+# Discarded 0 special-q's out of 716 pushed
+# Wasted cpu time due to 1 bkmult adjustments: 0.09
+# Total cpu time 144.95s, useful 144.35s [norm 0.38+1.1, sieving 153.7 (37.7+45.7 + 70.3), factor 11.7 (3.7+5.8 + 2.2), rest 23.7], wasted+waited 0.09s, rest 0.51s
+# Total elapsed time 151.16s, per special-q 0.211121s, per relation 0.00207129s
+# PeakMemusage (MB) = 151 
+# Total 72980 reports [0.00199s/r, 101.9r/sq] in 151 elapsed s [95.9% CPU]

@@ -1,0 +1,110 @@
+# Info: global bounds (0:0, -1:2, -2048:1024) gives:
+# Info: exp_alpha: -4.232, norm bound: DBL_MAX, E bound: 26.647 (init. norm: 30.747)
+# Info: global bounds (0:0, -1:1, -256:256) gives:
+# Info: exp_alpha: -3.844, norm bound: DBL_MAX, E bound: 26.536 (init. norm: 30.248)
+# Info: start_modbound : 2
+# Info: end_modbound : 2
+# Info: tune (incr), modbound: 2 to 2
+# Info: start_modbound : 2
+# Info: end_modbound : 2
+# Info: tune (incr), modbound: 2 to 2
+# Info: tune (incr), best_lognorm_incr: 1.005000
+# Info: tune (incr), best_lognorm_incr: 1.005000
+# Info: tune [   1], E: 2.21e-06, lat (0, 0, 3) (mod 4)
+# Info: tune [   2], E: 2.32e-06, lat (0, 0, 1) (mod 2)
+# Info: tune [   1], E: 2.00e-06, lat (0, 1, 0) (mod 2)
+# Info: tune [   3], E: 2.37e-06, lat (0, 1, 1) (mod 2)
+# Info: tune [   4], E: 2.71e-06, lat (0, 2, 3) (mod 4)
+# Info: tune [   2], E: 2.30e-06, lat (0, 0, 0) (mod 4)
+# Info: tune [   1], E: 2.30e-06, lat (0, -2, 3) (mod 4)
+# Info: tune [   2], E: 2.44e-06, lat (0, 2, 1) (mod 2)
+# Info: tune [   3], E: 2.47e-06, lat (0, 2, 3) (mod 4)
+# Info: tune [   1], E: 2.30e-06, lat (0, -2, 3) (mod 4)
+# Info: tune [   3], E: 2.41e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   2], E: 2.44e-06, lat (0, 2, 1) (mod 2)
+# Info: tune [   1], E: 2.17e-06, lat (0, 0, 0) (mod 4)
+# Info: tune [   2], E: 2.32e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   1], E: 2.17e-06, lat (0, 0, 0) (mod 4)
+# Info: tune [   3], E: 2.47e-06, lat (0, 2, 3) (mod 4)
+# Info: tune [   1], E: 2.34e-06, lat (0, 2, 3) (mod 4)
+# Info: tune [   2], E: 2.41e-06, lat (0, 2, 1) (mod 2)
+# Info: tune [   2], E: 2.32e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   1], E: 2.09e-06, lat (0, 0, 0) (mod 2)
+# Stat: this polynomial (stage 1) took 0.00s
+# Stat: this polynomial (tuning ) took 1.01s
+# Stat: this polynomial (stage 2) took 1.60s
+# Info: global bounds (0:0, -1:1, -256:1024) gives:
+# Info: exp_alpha: -3.201, norm bound: DBL_MAX, E bound: 26.426 (init. norm: 29.495)
+# Info: start_modbound : 2
+# Info: end_modbound : 2
+# Info: tune (incr), modbound: 2 to 2
+# Info: tune (incr), best_lognorm_incr: 1.005000
+# Info: tune [   1], E: 2.15e-06, lat (0, 0, 2) (mod 4)
+# Info: tune [   2], E: 2.19e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   3], E: 2.22e-06, lat (0, 1, 0) (mod 2)
+# Info: tune [   1], E: 2.26e-06, lat (0, -4, 2) (mod 4)
+# Info: tune [   2], E: 2.70e-06, lat (0, -1, 0) (mod 2)
+# Info: tune [   1], E: 2.26e-06, lat (0, -4, 2) (mod 4)
+# Info: tune [   2], E: 2.70e-06, lat (0, -1, 0) (mod 2)
+# Info: tune [   1], E: 2.47e-06, lat (0, -1, 0) (mod 2)
+# Stat: this polynomial (stage 1) took 0.00s
+# Stat: this polynomial (tuning ) took 0.66s
+# Stat: this polynomial (stage 2) took 1.62s
+# Info: global bounds (0:0, -1:1, -1024:2048) gives:
+# Info: exp_alpha: -3.920, norm bound: DBL_MAX, E bound: 26.601 (init. norm: 30.388)
+# Info: start_modbound : 2
+# Info: end_modbound : 2
+# Info: tune (incr), modbound: 2 to 2
+# Info: tune (incr), best_lognorm_incr: 1.005000
+# Info: tune [   1], E: 2.20e-06, lat (0, 0, 0) (mod 4)
+# Info: tune [   2], E: 2.21e-06, lat (0, 1, 0) (mod 2)
+# Info: tune [   3], E: 2.26e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   1], E: 2.19e-06, lat (0, -1, 0) (mod 2)
+# Info: tune [   2], E: 2.22e-06, lat (0, -2, 0) (mod 2)
+# Info: tune [   1], E: 2.19e-06, lat (0, -1, 0) (mod 2)
+# Info: tune [   2], E: 2.22e-06, lat (0, -2, 0) (mod 2)
+# Info: tune [   1], E: 2.09e-06, lat (0, -2, 0) (mod 2)
+# Stat: this polynomial (stage 1) took 0.00s
+# Stat: this polynomial (tuning ) took 0.62s
+# Stat: this polynomial (stage 2) took 1.47s
+# Info: global bounds (0:0, -1:1, -256:256) gives:
+# Info: exp_alpha: -3.986, norm bound: DBL_MAX, E bound: 26.643 (init. norm: 30.497)
+# Info: start_modbound : 2
+# Info: end_modbound : 2
+# Info: tune (incr), modbound: 2 to 2
+# Info: tune (incr), best_lognorm_incr: 1.005000
+# Info: tune [   1], E: 2.07e-06, lat (0, 0, 3) (mod 4)
+# Info: tune [   2], E: 2.22e-06, lat (0, 1, 0) (mod 2)
+# Info: tune [   3], E: 2.37e-06, lat (0, 0, 1) (mod 2)
+# Info: tune [   1], E: 2.19e-06, lat (0, -2, 1) (mod 2)
+# Info: tune [   2], E: 2.25e-06, lat (0, -1, 0) (mod 2)
+# Info: tune [   1], E: 2.19e-06, lat (0, -2, 1) (mod 2)
+# Info: tune [   2], E: 2.25e-06, lat (0, -1, 0) (mod 2)
+# Info: tune [   1], E: 2.00e-06, lat (0, -1, 0) (mod 2)
+# Stat: this polynomial (stage 1) took 0.00s
+# Stat: this polynomial (tuning ) took 0.52s
+# Stat: this polynomial (stage 2) took 1.15s
+# Info: global bounds (0:0, -1:1, -1:1) gives:
+# Info: exp_alpha: -4.799, norm bound: DBL_MAX, E bound: 26.102 (init. norm: 30.771)
+# Info: start_modbound : 2
+# Info: end_modbound : 2
+# Info: tune (incr), modbound: 2 to 2
+# Info: tune (incr), best_lognorm_incr: 1.005000
+# Info: tune [   1], E: 2.29e-06, lat (0, 3, 3) (mod 4)
+# Info: tune [   2], E: 2.30e-06, lat (0, 1, 1) (mod 4)
+# Info: tune [   3], E: 2.37e-06, lat (0, 1, 1) (mod 2)
+# Info: tune [   4], E: 2.39e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   1], E: 2.22e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   2], E: 2.28e-06, lat (0, 1, 1) (mod 2)
+# Info: tune [   3], E: 2.38e-06, lat (0, -2, 0) (mod 2)
+# Info: tune [   1], E: 2.22e-06, lat (0, 0, 0) (mod 2)
+# Info: tune [   2], E: 2.28e-06, lat (0, 1, 1) (mod 2)
+# Info: tune [   3], E: 2.38e-06, lat (0, -2, 0) (mod 2)
+# Info: tune [   1], E: 2.23e-06, lat (0, -2, 0) (mod 2)
+# Info: tune [   2], E: 2.23e-06, lat (0, -2, 0) (mod 2)
+# Stat: this polynomial (stage 1) took 0.00s
+# Stat: this polynomial (tuning ) took 0.46s
+# Stat: this polynomial (stage 2) took 1.17s
+# Stat: this polynomial (stage 1) took 0.00s
+# Stat: this polynomial (tuning ) took 0.61s
+# Stat: this polynomial (stage 2) took 1.17s

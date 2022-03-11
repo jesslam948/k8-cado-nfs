@@ -1,0 +1,196 @@
+# (c7e40d9e9) download/polyselect_ropt -v -t 1 -inputpolys download/test346.polyselect2.raw_35 -ropteffort 1.4 -area 2516582400000.0 -Bf 67108864.0 -Bg 33554432.0
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Info: Will use 1 thread
+# Info: ropteffort = 1
+# Info: L1_cachesize = 32768, size_tune_sievearray = 16384
+# Reading polynomials from download/test346.polyselect2.raw_35
+# 5 polynomial(s) read.
+# Info: Using OpenMP with 1 thread(s)
+
+### input polynomial 0 ###
+# n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+# Y0: -79803399846302837286
+# Y1: 3957649643072297
+# c0: 1346590090938695130027
+# c1: -10001758777919341202
+# c2: -5880456368272732
+# c3: 7197248140622
+# c4: 849700020
+# c5: 57600
+# skew: 1558.500
+# # lognorm 30.63, exp_E 26.26, alpha -0.71 (proj -2.38), 3 real roots
+# Info: s1param->nbest_sl: 32 (= size_total_sublattices*ropteffort)
+# Info: s1param->nbest_sieve: 12 (for sieving)
+# Info: tune (round 1), tunesize: 16384, queuesize: 4 to 32
+# Info: tune (round 2), tunesize: 16384, nbest: 32
+# Info: tune (round 3), tunesize: 65536, nbest: 16
+
+### root-optimized polynomial 0 ###
+n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+Y0: -92345191565198946479
+Y1: 3957649643072297
+c0: 122039586580032647048380
+c1: -125329222502179739552
+c2: -29563888282625875
+c3: 2210965823102
+c4: -62971980
+c5: 57600
+skew: 5143.731
+# lognorm 31.73, E 26.86, alpha -4.87 (proj -2.14), 3 real roots
+# MurphyE(Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12)=3.009e-06
+### Best MurphyE so far is 3.009e-06, av. exp_E 26.26, av. E 26.86
+
+### input polynomial 1 ###
+# n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+# Y0: -95342741262842793977
+# Y1: 21190644771874711
+# c0: -17004318997781231504767
+# c1: 29896919746992643467
+# c2: 13456863164856945
+# c3: -3165650608785
+# c4: -127751580
+# c5: 37200
+# skew: 3951.000
+# # lognorm 30.52, exp_E 26.33, alpha -0.95 (proj -1.68), 3 real roots
+# Info: s1param->nbest_sl: 32 (= size_total_sublattices*ropteffort)
+# Info: s1param->nbest_sieve: 12 (for sieving)
+# Info: tune (round 1), tunesize: 16384, queuesize: 3 to 32
+# Info: tune (round 2), tunesize: 16384, nbest: 32
+# Info: tune (round 3), tunesize: 65536, nbest: 16
+
+### root-optimized polynomial 1 ###
+n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+Y0: -26769814781056229181
+Y1: 21190644771874711
+c0: 512973455458160621024342
+c1: -269558188571424181739
+c2: -33886828101548626
+c3: -923796148305
+c4: 474144420
+c5: 37200
+skew: 6762.207
+# lognorm 32.07, E 26.83, alpha -5.24 (proj -1.68), 3 real roots
+# MurphyE(Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12)=2.996e-06
+### Best MurphyE so far is 3.009e-06, av. exp_E 26.30, av. E 26.85
+
+### input polynomial 2 ###
+# n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+# Y0: -95210891703123141343
+# Y1: 222758314358437
+# c0: -68258711423669630247
+# c1: -22759786477471283841
+# c2: -82138167413717
+# c3: -2561848030348
+# c4: 34140636
+# c5: 144720
+# skew: 2721.000
+# # lognorm 30.99, exp_E 26.33, alpha -2.74 (proj -2.25), 3 real roots
+# Info: s1param->nbest_sl: 32 (= size_total_sublattices*ropteffort)
+# Info: s1param->nbest_sieve: 12 (for sieving)
+# Info: tune (round 1), tunesize: 16384, queuesize: 3 to 32
+# Info: tune (round 2), tunesize: 16384, nbest: 32
+# Info: tune (round 3), tunesize: 65536, nbest: 16
+
+### root-optimized polynomial 2 ###
+n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+Y0: -95251656474650735314
+Y1: 222758314358437
+c0: 6681535053317490390993
+c1: 167510167985669721566
+c2: 876790640698085
+c3: -2538373695100
+c4: -98278164
+c5: 144720
+skew: 4415.869
+# lognorm 32.16, E 26.69, alpha -5.47 (proj -2.19), 1 real root
+# MurphyE(Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12)=2.958e-06
+### Best MurphyE so far is 3.009e-06, av. exp_E 26.31, av. E 26.80
+
+### input polynomial 3 ###
+# n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+# Y0: -111338691666681909393
+# Y1: 11939590056729667
+# c0: 8520801998226905558588
+# c1: 3246809764960012737
+# c2: -12551456727534842
+# c3: -910320605758
+# c4: 474038760
+# c5: 70200
+# skew: 2593.000
+# # lognorm 30.33, exp_E 25.70, alpha -1.44 (proj -2.46), 3 real roots
+# Info: s1param->nbest_sl: 32 (= size_total_sublattices*ropteffort)
+# Info: s1param->nbest_sieve: 12 (for sieving)
+# Info: tune (round 1), tunesize: 16384, queuesize: 4 to 32
+# Info: tune (round 2), tunesize: 16384, nbest: 32
+# Info: tune (round 3), tunesize: 65536, nbest: 16
+
+### root-optimized polynomial 3 ###
+n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+Y0: -136292434885246913423
+Y1: 11939590056729667
+c0: 13256070534484822680798
+c1: 28632301616405659437
+c2: -828643242096182
+c3: -1806878439358
+c4: -259551240
+c5: 70200
+skew: 3415.302
+# lognorm 30.73, E 25.95, alpha -4.78 (proj -2.46), 3 real roots
+# MurphyE(Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12)=3.364e-06
+### Best MurphyE so far is 3.364e-06, av. exp_E 26.16, av. E 26.58
+
+### input polynomial 4 ###
+# n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+# Y0: -80770249407249659553
+# Y1: 1550370493540037
+# c0: 2217386870352638414459
+# c1: 19957676246648102637
+# c2: -2706975616237103
+# c3: 632872276295
+# c4: 209085434
+# c5: 69000
+# skew: 2883.000
+# # lognorm 30.75, exp_E 26.51, alpha -0.77 (proj -1.81), 1 real root
+# Info: s1param->nbest_sl: 32 (= size_total_sublattices*ropteffort)
+# Info: s1param->nbest_sieve: 12 (for sieving)
+# Info: tune (round 1), tunesize: 16384, queuesize: 4 to 32
+# Info: tune (round 2), tunesize: 16384, nbest: 32
+# Info: tune (round 3), tunesize: 65536, nbest: 16
+
+### root-optimized polynomial 4 ###
+n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+Y0: -83091154036079094942
+Y1: 1550370493540037
+c0: 1159553989249893631100
+c1: -135618861502544668271
+c2: -1951895412190438
+c3: 927164907503
+c4: -307379566
+c5: 69000
+skew: 4945.994
+# lognorm 31.72, E 26.91, alpha -4.81 (proj -1.81), 3 real roots
+# MurphyE(Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12)=3.050e-06
+### Best MurphyE so far is 3.364e-06, av. exp_E 26.23, av. E 26.65
+
+
+# Stat: total phase took 12.47s
+# Stat: rootsieve took 12.41s
+# Stat:  (stage 1 took 0.02s)
+# Stat:  (tuning took 3.93s)
+# Stat:  (stage 2 (sieving) took 8.12s)
+# Best polynomial found (revision c7e40d9e9):
+# n: 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+# Y0: -136292434885246913423
+# Y1: 11939590056729667
+# c0: 13256070534484822680798
+# c1: 28632301616405659437
+# c2: -828643242096182
+# c3: -1806878439358
+# c4: -259551240
+# c5: 70200
+# skew: 3415.302
+# # lognorm 30.73, E 25.95, alpha -4.78 (proj -2.46), 3 real roots
+# # MurphyE(Bf=6.711e+07,Bg=3.355e+07,area=2.517e+12)=3.364e-06
+# Average exp_E: 26.23, average E: 26.65
