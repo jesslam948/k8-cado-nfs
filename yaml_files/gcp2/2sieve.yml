@@ -2,19 +2,19 @@ apiVersion: batch/v1
 kind: Job
 metadata:
     name: sieve
-    labels:
-        app: server
 spec:
     template:
+        metadata:
+            labels:
+                app: server
         spec:
-            hostname: cadoserver
             containers:
             - name: cadoserver
               image: us-central1-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs:latest
               ports:
                 - containerPort: 8012
               command: ['/bin/sh', '-c']
-              args: ['cd /cado-nfs && ./cado-nfs.py /etc/config/params tasks.linalg.run=false']
+              args: ['cd /cado-nfs && ./cado-nfs.py tasks.linalg.run=false /etc/config/params']
               volumeMounts:
                 - name: param-volume
                   mountPath: /etc/config
