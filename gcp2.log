@@ -1,0 +1,200 @@
+[33;1mWarning[0m:Parameters: Parameter tasks.execpath, previously set to value /cado-nfs/build/cado-nfs-build, overwritten with value $(builddir)
+[32;1mInfo[0m:root: No database exists yet
+[32;1mInfo[0m:Database: Opened connection to database /tmp/test346.db
+[32;1mInfo[0m:root: tasks.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: tasks.polyselect.threads = 2 [via tasks.polyselect.threads]
+[32;1mInfo[0m:root: tasks.sieve.las.threads = 2 [via tasks.sieve.las.threads]
+[32;1mInfo[0m:root: tasks.linalg.bwc.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: tasks.sqrt.threads = 2 [via tasks.threads]
+[32;1mInfo[0m:root: Command line parameters: ./cado-nfs.py /etc/config/params
+[32;1mInfo[0m:root: If this computation gets interrupted, it can be resumed with ./cado-nfs.py /tmp/test346.parameters_snapshot.2
+[32;1mInfo[0m:HTTP server: Using non-threaded HTTP server
+[32;1mInfo[0m:HTTP server: Using whitelist: 0.0.0.0/0
+[32;1mInfo[0m:Lattice Sieving: param rels_wanted is 0
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Factoring 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+[33;1mWarning[0m:Complete Factorization / Discrete logarithm: The start time of the last cado-nfs.py run was recorded, but not its end time, maybe because it died unexpectedly.
+[33;1mWarning[0m:Complete Factorization / Discrete logarithm: Elapsed time of last run is not known and will not be counted towards total.
+[32;1mInfo[0m:HTTP server: serving at http://linalg-nkbtv:8012 (0.0.0.0)
+[32;1mInfo[0m:HTTP server: For debugging purposes, the URL above can be accessed if the server.only_registered=False parameter is added
+[32;1mInfo[0m:HTTP server: You can start additional cado-nfs-client.py scripts with parameters: --server=http://linalg-nkbtv:8012
+[32;1mInfo[0m:HTTP server: If you want to start additional clients, remember to add their hosts to server.whitelist
+[32;1mInfo[0m:Polynomial Selection (size optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (size optimized): 50 polynomials in queue from previous run, worst exp_E 26.790000
+[32;1mInfo[0m:Polynomial Selection (size optimized): Already finished - nothing to do
+[32;1mInfo[0m:Polynomial Selection (size optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (size optimized): potential collisions: 9603.68
+[32;1mInfo[0m:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 9692/30.370/36.764/41.730/1.067
+[32;1mInfo[0m:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 7423/29.140/32.646/37.220/0.865
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 589.43
+[32;1mInfo[0m:Polynomial Selection (root optimized): Starting
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best polynomial previously has Murphy_E = 3.382e-06
+[32;1mInfo[0m:Polynomial Selection (root optimized): Already finished - nothing to do
+[32;1mInfo[0m:Polynomial Selection (root optimized): Best overall polynomial was 1-th in list after size optimization
+[32;1mInfo[0m:Polynomial Selection (root optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 145.38
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 144.77
+[32;1mInfo[0m:Generate Factor Base: Starting
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 1.65/0.906029
+[32;1mInfo[0m:Generate Free Relations: Starting
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 67.89/33.4659
+[32;1mInfo[0m:Lattice Sieving: Starting
+[32;1mInfo[0m:Lattice Sieving: We want 4584686 relation(s)
+[32;1mInfo[0m:Lattice Sieving: Reached target of 4584686 relations, now have 4631859
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 4631859
+[32;1mInfo[0m:Lattice Sieving: Average J: 1884.19 for 41993 special-q, max bucket fill -bkmult 1.0,1s:1.177860
+[32;1mInfo[0m:Lattice Sieving: Total time: 5411.89s
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: No new files to split
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 2315575, 1: 2316284
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 31.78/27.7558
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 27.5s
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Starting
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: No new files for slice 0, nothing to do
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: No new files for slice 1, nothing to do
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: 3728219 unique relations remain in total
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 67.61/50.7851
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 43.5s
+[32;1mInfo[0m:Filtering - Singleton removal: Starting
+[32;1mInfo[0m:Filtering - Singleton removal: Already have a purged file, and no new input relations available. Nothing to do
+[32;1mInfo[0m:HTTP server: Got notification to stop serving Workunits
+[32;1mInfo[0m:Lattice Sieving: Cancelling remaining workunits
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 25.44/22.8215
+[32;1mInfo[0m:Filtering - Merging: Starting
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 47.19/25.0505
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 12.72/11.679
+[32;1mInfo[0m:Linear Algebra: Starting
+[32;1mInfo[0m:Linear Algebra: krylov: N=128 ; ETA (N=7040): Mon Apr  4 23:48:28 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=256 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=384 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=512 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=640 ; ETA (N=7040): Mon Apr  4 23:48:28 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=768 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=896 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1024 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1152 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1280 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1408 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1536 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1664 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1792 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=1920 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2048 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2176 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2304 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2432 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2560 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2688 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2816 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=2944 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3072 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3200 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3328 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3456 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3584 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3712 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3840 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=3968 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4096 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4224 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4352 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4480 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4608 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4736 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4864 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=4992 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5120 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5248 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5376 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5504 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5632 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5760 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=5888 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6016 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6144 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6272 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6400 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6528 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6656 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6784 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=6912 ; ETA (N=7040): Mon Apr  4 23:48:29 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: krylov: N=7040 ; ETA (N=7040): Mon Apr  4 23:48:30 2022 [0.014 s/iter]
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: not available yet
+[32;1mInfo[0m:Linear Algebra: lingen ETA: Mon Apr  4 23:48:37 2022
+[32;1mInfo[0m:Linear Algebra: mksol: N=128 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=256 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=384 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=512 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=640 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=768 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=896 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1024 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1152 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1280 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1408 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1536 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.017 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1664 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.017 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1792 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=1920 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2048 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2176 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2304 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2432 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2560 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2688 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2816 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=2944 ; ETA (N=3584): Mon Apr  4 23:49:35 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3072 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3200 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3328 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3456 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: mksol: N=3498 ; ETA (N=3584): Mon Apr  4 23:49:36 2022 [0.016 s/iter]
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 347.62/172.72
+[32;1mInfo[0m:Linear Algebra: Aggregate statistics:
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 196.81, WCT time 100.1, iteration CPU time 0.01, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (7040 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 25.4, WCT time 6.66
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 113.69,  WCT time 58.01, iteration CPU time 0.02, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (3584 iterations)
+[32;1mInfo[0m:Quadratic Characters: Starting
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 7.74/4.86465
+[32;1mInfo[0m:Square Root: Starting
+[32;1mInfo[0m:Square Root: Creating file of (a,b) values
+[32;1mInfo[0m:Square Root: finished
+[32;1mInfo[0m:Square Root: Factors: 7699755893344333875738758125060994305085767708121939 16347066195737977199795403886578101002006046911802287
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 72.02/21.0264
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 67.61/50.7851
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, removal pass: CPU time for dup2: 43.5s
+[32;1mInfo[0m:Square Root: Total cpu/real time for sqrt: 72.02/21.0264
+[32;1mInfo[0m:Generate Factor Base: Total cpu/real time for makefb: 1.65/0.906029
+[32;1mInfo[0m:Filtering - Singleton removal: Total cpu/real time for purge: 25.44/22.8215
+[32;1mInfo[0m:Polynomial Selection (root optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (root optimized): Total time: 145.38
+[32;1mInfo[0m:Polynomial Selection (root optimized): Rootsieve time: 144.77
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for merge: 47.19/25.0505
+[32;1mInfo[0m:Filtering - Merging: Total cpu/real time for replay: 12.72/11.679
+[32;1mInfo[0m:Lattice Sieving: Aggregate statistics:
+[32;1mInfo[0m:Lattice Sieving: Total number of relations: 4631859
+[32;1mInfo[0m:Lattice Sieving: Average J: 1884.19 for 41993 special-q, max bucket fill -bkmult 1.0,1s:1.177860
+[32;1mInfo[0m:Lattice Sieving: Total time: 5411.89s
+[32;1mInfo[0m:Linear Algebra: Total cpu/real time for bwc: 347.62/172.72
+[32;1mInfo[0m:Linear Algebra: Aggregate statistics:
+[32;1mInfo[0m:Linear Algebra: Krylov: CPU time 196.81, WCT time 100.1, iteration CPU time 0.01, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (7040 iterations)
+[32;1mInfo[0m:Linear Algebra: Lingen CPU time 25.4, WCT time 6.66
+[32;1mInfo[0m:Linear Algebra: Mksol: CPU time 113.69,  WCT time 58.01, iteration CPU time 0.02, COMM 0.0, cpu-wait 0.0, comm-wait 0.0 (3584 iterations)
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 31.78/27.7558
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+[32;1mInfo[0m:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 27.5s
+[32;1mInfo[0m:Quadratic Characters: Total cpu/real time for characters: 7.74/4.86465
+[32;1mInfo[0m:Generate Free Relations: Total cpu/real time for freerel: 67.89/33.4659
+[32;1mInfo[0m:Polynomial Selection (size optimized): Aggregate statistics:
+[32;1mInfo[0m:Polynomial Selection (size optimized): potential collisions: 9603.68
+[32;1mInfo[0m:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 9692/30.370/36.764/41.730/1.067
+[32;1mInfo[0m:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 7423/29.140/32.646/37.220/0.865
+[32;1mInfo[0m:Polynomial Selection (size optimized): Total time: 589.43
+[32;1mInfo[0m:HTTP server: Shutting down HTTP server
+[32;1mInfo[0m:Complete Factorization / Discrete logarithm: Total cpu/elapsed time for entire factorization: 11551.2/199.22
+7699755893344333875738758125060994305085767708121939 16347066195737977199795403886578101002006046911802287
+linalg done!

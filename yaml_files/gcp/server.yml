@@ -10,7 +10,7 @@ spec:
                   image: us-central1-docker.pkg.dev/k8-cado-nfs/cado-nfs-repo/cadonfs:latest
                   ports:
                           - containerPort: 8012
-                  command: ['sh', '-c', 'cd /cado-nfs && ./cado-nfs.py /etc/config/params && echo "Done running" && sleep 10m']
+                  command: ['sh', '-c', 'cd /cado-nfs && ./cado-nfs.py /etc/config/params && echo "Done running" && sleep 15m']
                   volumeMounts:
                           - name: param-volume
                             mountPath: /etc/config
