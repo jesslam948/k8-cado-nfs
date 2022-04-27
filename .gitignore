@@ -1,3 +1,5 @@
 Notes.md
 log_files/compare
 todo.txt
+logs
+*.gz
