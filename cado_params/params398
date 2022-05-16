@@ -2,11 +2,11 @@
 # General parameters
 ###########################################################################
 
-# these parameters are for a 346 bit number
-name = test346
+# these parameters are for a 398 bit number (120 digits)
+name = test398
 
-# 346 bits
-N = 125868419279523430088160793616873386392614447781345823428083497332686332792474660896824910659526455074493
+# 398 bits
+N = 366744575013496202086486768978188612897819132627038185231462668504423466676089378996574447398545649414722323458414720753
 
 sourcedir=/cado-nfs
 builddir=$(sourcedir)/build/cado-nfs-build
@@ -28,37 +28,39 @@ server.whitelist = 0.0.0.0/0
 
 tasks.polyselect.degree = 5
 
-tasks.polyselect.P = 18000
-tasks.polyselect.admax = 4e4
+tasks.polyselect.P = 60000
+tasks.polyselect.admax = 1e5
 tasks.polyselect.adrange = 4e3
 tasks.polyselect.incr = 60
 tasks.polyselect.nq = 3125
-tasks.polyselect.nrkeep = 50
-tasks.polyselect.ropteffort = 1.4
+tasks.polyselect.nrkeep = 200
+tasks.polyselect.ropteffort = 3.5
 
 ###########################################################################
 # Sieve
 ###########################################################################
 
-tasks.lim0=1000000
-tasks.lim1=1600000
-tasks.lpb0=25
-tasks.lpb1=26
-tasks.sieve.mfb0=50
-tasks.sieve.mfb1=52
-tasks.sieve.ncurves0 = 13
-tasks.sieve.ncurves1 = 16
+tasks.lim0 = 3000000
+tasks.lim1 = 5500000
+tasks.lpb0 = 27
+tasks.lpb1 = 27
+tasks.sieve.mfb0 = 54
+tasks.sieve.mfb1 = 54
+tasks.sieve.ncurves0 = 14
+tasks.sieve.ncurves1 = 19
 tasks.I = 12
+tasks.qmin = 1000000
 
 tasks.sieve.qrange = 10000
-tasks.qmin = 300000
+
+tasks.sieve.rels_wanted = 13419694
 
 ###########################################################################
 # Filtering
 ###########################################################################
 
 tasks.filter.purge.keep = 170
-tasks.filter.target_density = 145.0
+tasks.filter.target_density = 100
 
 ###########################################################################
 # Linear algebra
