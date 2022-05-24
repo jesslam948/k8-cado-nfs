@@ -41,7 +41,7 @@ metadata:
     labels:
         app: client
 spec:
-    replicas: 8
+    replicas: 32
     selector:
         matchLabels:
             app: client

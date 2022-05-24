@@ -1,0 +1,78 @@
+###########################################################################
+# General parameters
+###########################################################################
+
+# these parameters are for a 398 bit number (135 digits)
+name = test447
+
+# 447 bits
+N = 192299228771369678281969993119812581874560552208122375940768852146632430789084559687731977213318230960823558455199305638354950119642969
+
+sourcedir=/cado-nfs
+builddir=$(sourcedir)/build/cado-nfs-build
+tasks.workdir = /tmp
+tasks.execpath=$(builddir)
+tasks.verbose = 1
+
+tasks.threads= 2
+tasks.wutimeout = 240
+tasks.maxtimedout = 100
+
+server.port = 8012
+server.ssl = no
+server.whitelist = 0.0.0.0/0
+
+###########################################################################
+# Polynomial selection
+###########################################################################
+
+tasks.polyselect.degree = 5
+
+tasks.polyselect.P = 120000
+tasks.polyselect.admax = 3e5
+tasks.polyselect.adrange = 2e3
+tasks.polyselect.incr = 60
+tasks.polyselect.nq = 3125
+tasks.polyselect.nrkeep = 200
+tasks.polyselect.ropteffort = 10
+
+###########################################################################
+# Sieve
+###########################################################################
+
+tasks.lim0 = 3341873
+tasks.lim1 = 16407032
+tasks.lpb0 = 27
+tasks.lpb1 = 28
+tasks.sieve.mfb0 = 51
+tasks.sieve.mfb1 = 62
+tasks.sieve.ncurves0 = 12
+tasks.sieve.ncurves1 = 13
+tasks.I = 13
+tasks.qmin = 10664570
+
+tasks.sieve.qrange = 10000
+
+tasks.sieve.rels_wanted = 13419694
+
+###########################################################################
+# Filtering
+###########################################################################
+
+tasks.filter.purge.keep = 160
+tasks.filter.target_density = 170.0
+
+###########################################################################
+# Linear algebra
+###########################################################################
+
+tasks.linalg.bwc.interleaving = 0
+tasks.linalg.m = 64
+tasks.linalg.n = 64
+
+###########################################################################
+# Characters
+###########################################################################
+
+tasks.linalg.characters.nchar = 50
+
