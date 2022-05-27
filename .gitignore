@@ -3,4 +3,4 @@ log_files/compare
 todo.txt
 logs
 *.gz
-log*/
+logs*/
