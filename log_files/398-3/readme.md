@@ -1,5 +1,7 @@
 398 bits (120 digits)
+
 4 nodes with 8 cores each (32 cores in total)
+
 16 clients with 2 threads
 
 server node with 2 cores only (ended prematurely)

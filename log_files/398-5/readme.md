@@ -1,5 +1,7 @@
 398 bits (120 digits)
+
 6 nodes with 16 cores each (96 cores in total)
+
 48 clients with 2 threads
 
 server node with 2 cores only (stopped after sieving)
