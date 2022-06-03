@@ -2,7 +2,7 @@
 # General parameters
 ###########################################################################
 
-# these parameters are for a 398 bit number (135 digits)
+# these parameters are for a 477 bit number (135 digits)
 name = test447
 
 # 447 bits
@@ -53,8 +53,7 @@ tasks.qmin = 10664570
 
 tasks.sieve.qrange = 10000
 
-tasks.sieve.rels_wanted = 13419694
-
+tasks.sieve.rels_wanted = 16500000 ## TODO: increase above based on log files: 16421017 (look for "reached target")
 ###########################################################################
 # Filtering
 ###########################################################################
@@ -69,6 +68,7 @@ tasks.filter.target_density = 170.0
 tasks.linalg.bwc.interleaving = 0
 tasks.linalg.m = 64
 tasks.linalg.n = 64
+tasks.linalg.bwc.threads=16 ## This is the number of threads to use for linalg
 
 ###########################################################################
 # Characters
