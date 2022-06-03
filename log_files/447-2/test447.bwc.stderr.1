@@ -1,0 +1,118 @@
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/prep -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin
+# (c7e40d9e9) /cado-nfs/build/cado-nfs-build/linalg/bwc/prep -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+-v=(null)
+cpubinding=/cado-nfs/parameters/misc/cpubinding.conf
+m=64
+matrix=/tmp/test447.sparse.bin
+n=64
+nullspace=left
+prime=2
+thr=1x2
+wdir=/tmp/test447.bwc
+Writing balancing data to test447.sparse.1x2/test447.sparse.1x2.bin
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/secure -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin
+# (c7e40d9e9) /cado-nfs/build/cado-nfs-build/linalg/bwc/secure -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+-v=(null)
+cpubinding=/cado-nfs/parameters/misc/cpubinding.conf
+m=64
+matrix=/tmp/test447.sparse.bin
+n=64
+nullspace=left
+prime=2
+thr=1x2
+wdir=/tmp/test447.bwc
+Setting interval value to default 0
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/krylov -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin ys=0..64 start=0
+# (c7e40d9e9) /cado-nfs/build/cado-nfs-build/linalg/bwc/krylov -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin ys=0..64 start=0
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+-v=(null)
+cpubinding=/cado-nfs/parameters/misc/cpubinding.conf
+interleaving=0
+m=64
+matrix=/tmp/test447.sparse.bin
+n=64
+nullspace=left
+prime=2
+start=0
+thr=1x2
+wdir=/tmp/test447.bwc
+ys=0..64
+Setting interval value to default 0
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/acollect -v nullspace=left n=64 m=64 wdir=/tmp/test447.bwc prime=2 --remove-old
+# (c7e40d9e9) /cado-nfs/build/cado-nfs-build/linalg/bwc/acollect -v nullspace=left n=64 m=64 wdir=/tmp/test447.bwc prime=2 --remove-old
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+--remove-old=(null)
+-v=(null)
+m=64
+n=64
+nullspace=left
+prime=2
+wdir=/tmp/test447.bwc
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/lingen_u64k1 split-output-file=1 afile=A0-64.0-41984 ffile=F n=64 m=64 wdir=/tmp/test447.bwc prime=2 tuning_thresholds=recursive:128,ternary:6400,cantor:6400,notiming:0
+# (c7e40d9e9) /cado-nfs/build/cado-nfs-build/linalg/bwc/lingen_u64k1 split-output-file=1 afile=A0-64.0-41984 ffile=F n=64 m=64 wdir=/tmp/test447.bwc prime=2 tuning_thresholds=recursive:128,ternary:6400,cantor:6400,notiming:0
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# When using lingen, you must either supply --random-input-with-length, or provide a rhs, or possibly provide rhs=none
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/mksol -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin solutions=0-64 start=0
+# (c7e40d9e9) /cado-nfs/build/cado-nfs-build/linalg/bwc/mksol -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin solutions=0-64 start=0
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+-v=(null)
+cpubinding=/cado-nfs/parameters/misc/cpubinding.conf
+interleaving=0
+m=64
+matrix=/tmp/test447.sparse.bin
+n=64
+nullspace=left
+prime=2
+solutions=0-64
+start=0
+thr=1x2
+wdir=/tmp/test447.bwc
+Setting interval value to default 0
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/gather -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin solutions=0-64
+# (c7e40d9e9) /cado-nfs/build/cado-nfs-build/linalg/bwc/gather -v nullspace=left n=64 m=64 cpubinding=/cado-nfs/parameters/misc/cpubinding.conf wdir=/tmp/test447.bwc prime=2 thr=1x2 interleaving=0 matrix=/tmp/test447.sparse.bin solutions=0-64
+# Compiled with gcc 9.3.0
+# Compilation flags (C) -std=c99 -W -Wall -O2  -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+# Compilation flags (C++) -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2  -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mavx2 -mpclmul
+-v=(null)
+cpubinding=/cado-nfs/parameters/misc/cpubinding.conf
+m=64
+matrix=/tmp/test447.sparse.bin
+n=64
+nullspace=left
+prime=2
+solutions=0-64
+thr=1x2
+wdir=/tmp/test447.bwc
+Listing files in /tmp/test447.bwc via readdir
+#############################################################################
+/cado-nfs/build/cado-nfs-build/linalg/bwc/cleanup --ncols 64 --out /tmp/test447.bwc/W.sols0-64 /tmp/test447.bwc/K.sols0-64.0
+/tmp/test447.bwc/K.sols0-64.0: 1342063 x 64
+## Providing /tmp/test447.bwc/W as an alias to /tmp/test447.bwc/W.sols0-64
