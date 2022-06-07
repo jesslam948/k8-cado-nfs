@@ -4,3 +4,4 @@ todo.txt
 logs
 *.gz
 logs*/
+cado_params/params
